@@ -1,5 +1,59 @@
-body{
-  background-image: url('../images/bg-menor.jpg');
+.navbar-nav li a {
+  text-transform: uppercase;
+  line-height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #00b9b4;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.div-home{
+  background-color: #00b9b4;
+}
+
+.div-instituto{
+  background-image: url('../images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.div-instituto p, .div-instituto h2{
+  color: #7b7b7b;
+}
+.div-instituto .line1{
+  font-size: 16px;
+  margin: 50px 0;
+
+}
+.div-instituto .line1 span{
+  text-transform: uppercase;
+}
+.div-instituto .line2{
+  color: #9d9d9d;
+  font-size: 14px;
+  margin: 50px 0;
+}
+.div-instituto .line3 a, .div-instituto .line3 a:visited, .div-instituto .line3 a:hover{
+  color: #10bab4;
+}
+.div-especialidades{
+  background-image: url('../images/bg3.jpg');
+  background-repeat: no-repeat;
+}
+.div-especialidades h2{
+}
+.div-especialidades .line1{
+  color: white;
+  text-shadow: 1px 1px 1px #eee;
+  margin: 25px 0;
+}
+.div-especialidades .line2{
+  color: white;
 }
