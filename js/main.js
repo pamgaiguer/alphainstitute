@@ -21,4 +21,112 @@ $(document).ready(function() {
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
   });
-});
+
+  $('.carousel').carousel({
+    interval: 5000,
+    pause: "false"
+  });
+
+
+  var goTop = $('<div class="go-top">Voltar ao topo</div>');
+  $('body').append(goTop);
+  $(window).scroll(function() {
+    if ($(this).scrollTop() != 0) {
+      goTop.fadeIn();
+    } else {
+      goTop.fadeOut();
+    }
+  });
+  goTop.click(function() {
+    $('body,html').animate({
+      scrollTop : 0
+    }, 800);
+  });
+
+  //link para home
+  $('a[href^="#home"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+
+
+  //link para instituto
+  $('a[href^="#instituto"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+
+  //link para especialidades
+  $('a[href^="#especialidades"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+
+    //link para profissionais
+    $('a[href^="#profissionais"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash,
+      $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
+
+    //link para parceiros
+    $('a[href^="#parceiros"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash,
+      $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
+
+    //link para contato
+    $('a[href^="#contato"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash,
+      $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
+
+
+  });
