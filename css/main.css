@@ -111,6 +111,9 @@ body{
   background-color: white;
   padding: 20px 0px;
 }
+.div-profissionais h4, .div-profissionais p{
+  color: #10AB9D;
+}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
   display: inline-block;
 }
