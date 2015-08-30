@@ -134,8 +134,13 @@ body{
 }
 .div-parceiros{
   background-image: url('../images/bg4.jpg');
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .div-contato{
+  padding: 20px 0;
   background-color: white;
+}
+footer ul li a{
+  text-transform: uppercase;
+  color: #00b9b4;
 }
