@@ -8,33 +8,33 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
 
-  <div class="navbar-wrapper">
+  <nav class="navbar">
     <div class="container">
-      <div class="navbar">
-        <div class="navbar-header">
-          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="navbar-brand" href="#"><img src="images/logo_alpha.png" height="85" width="227"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#instituto">O Instituto</a></li>
-            <li><a href="#especialidades">Especialidades</a></li>
-            <li><a href="#profissionais">Os profissionais</a></li>
-            <li><a href="#parceiros">Parceiros</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo_alpha.png" class="img-responsive"></a>
       </div>
-    </div><!-- /container -->
-  </div><!-- /navbar wrapper -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#instituto">O Instituto</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#profissionais">Os profissionais</a></li>
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
   <section class="div-home" id="home">
     <div class="container">
@@ -245,7 +245,7 @@
         <footer>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
             <ul class="list-unstyled">
-              <li><a href="https://www.facebook.com/pages/Instituto-Alpha-de-Sa%C3%BAde-Integral/385416424931241"><span>Facebook/</span>institutoAlpha</a></li>
+              <li><a href="https://www.facebook.com/pages/Instituto-Alpha-de-Sa%C3%BAde-Integral/385416424931241"><strong>Facebook/</strong>institutoAlpha</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
@@ -257,7 +257,7 @@
 
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <ul class="list-unstyled text-right">
+            <ul class="list-unstyled text-right">
               <li><a href="#profissionais">Os profissionais</a></li>
               <li><a href="#parceiros">Parceiros</a></li>
               <li><a href="#contato">Contato</a></li>
