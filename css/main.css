@@ -1,11 +1,12 @@
 html{
   background-size: cover;
 }
-body{}
+body{
+
+}
 .navbar{
   margin-bottom: 0px;
 }
-
 .navbar-nav li a {
   text-transform: uppercase;
   line-height: 75px;
@@ -31,6 +32,7 @@ body{}
   bottom: 0px;
   right: 0px;
   color: #00b9b4;
+  border:1px solid #00b9b4;
   cursor: pointer;
   display: none;
   padding: 10px;
