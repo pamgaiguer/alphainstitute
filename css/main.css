@@ -65,30 +65,35 @@ body{
 }
 .div-home{
   background-color: #00b9b4;
+  height: 634px;
 }
 .div-instituto{
   background-image: url('../images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center ;
+  background-position: top center;
+  height: 606px;
 }
 .div-especialidades{
   background-image: url('../images/bg3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center ;
+  background-position: top center;
+  height: 1006px;
 }
 .div-profissionais{
   background-image: url('../images/bg4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center ;
+  background-position: top center;
+  height: 693px;
 }
 .div-parceiros{
   background-image: url('../images/bg5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center ;
+  background-position: top center;
+  height: 981px;
 }
 
 .div-instituto p, .div-instituto h2{
@@ -96,7 +101,6 @@ body{
 }
 .div-instituto .line1{
   font-size: 16px;
-  margin: 50px 0;
 }
 .div-instituto .line1 span{
   text-transform: uppercase;
