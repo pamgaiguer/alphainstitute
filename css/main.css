@@ -3,7 +3,6 @@ html{
 }
 body{
   font-family: 'Lato';
-
 }
 .navbar{
   margin-bottom: 0px;
@@ -71,14 +70,33 @@ body{
   background-image: url('../images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center ;
 }
+.div-especialidades{
+  background-image: url('../images/bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center ;
+}
+.div-profissionais{
+  background-image: url('../images/bg4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center ;
+}
+.div-parceiros{
+  background-image: url('../images/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center ;
+}
+
 .div-instituto p, .div-instituto h2{
   color: #7b7b7b;
 }
 .div-instituto .line1{
   font-size: 16px;
   margin: 50px 0;
-
 }
 .div-instituto .line1 span{
   text-transform: uppercase;
@@ -90,10 +108,6 @@ body{
 }
 .div-instituto .line3 a, .div-instituto .line3 a:visited, .div-instituto .line3 a:hover{
   color: #10bab4;
-}
-.div-especialidades{
-  background-image: url('../images/bg3.jpg');
-  background-repeat: no-repeat;
 }
 .div-especialidades h2{
 }
@@ -111,10 +125,6 @@ body{
 }
 .div-especialidades .media-body p{
   color: white;
-}
-.div-profissionais{
-  background-color: white;
-  padding: 20px 0px;
 }
 .div-profissionais h4, .div-profissionais p{
   color: #10AB9D;
@@ -139,10 +149,6 @@ body{
 .arrow-right{
   background-image: url('../images/arrow-right.png');
   right: 30%;
-}
-.div-parceiros{
-  background-image: url('../images/bg4.jpg');
-  background-repeat: no-repeat;
 }
 .div-contato{
   padding: 20px 0;
