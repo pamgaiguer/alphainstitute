@@ -1,4 +1,28 @@
 $(document).ready(function() {
+
+  var goTop = $('<div class="go-top">Voltar ao topo</div>');
+  $('body').append(goTop);
+  $(window).scroll(function() {
+    if ($(this).scrollTop() != 0) {
+      goTop.fadeIn();
+    } else {
+      goTop.fadeOut();
+    }
+  });
+  goTop.click(function() {
+    $('body,html').animate({
+      scrollTop : 0
+    }, 800);
+  });
+
+  $('#fullpage').fullpage({
+    menu: '#header',
+    verticalCentered: false,
+    css3: true,
+    fixedElements: '#header',
+    paddingTop: '120px'
+  });
+
   var target = {
     'index': 'index.php',
     'empresa': 'empresa.php',
@@ -16,7 +40,6 @@ $(document).ready(function() {
   });
   $('a[href^="' + target[pageName] + '"]').parent().addClass("active");
 
-
   $(".nav a").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
@@ -28,105 +51,90 @@ $(document).ready(function() {
   });
 
 
-  var goTop = $('<div class="go-top">Voltar ao topo</div>');
-  $('body').append(goTop);
-  $(window).scroll(function() {
-    if ($(this).scrollTop() != 0) {
-      goTop.fadeIn();
-    } else {
-      goTop.fadeOut();
-    }
+//link para home
+$('a[href^="#home"]').on('click',function (e) {
+  e.preventDefault();
+
+  var target = this.hash,
+  $target = $(target);
+
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
-  goTop.click(function() {
-    $('body,html').animate({
-      scrollTop : 0
-    }, 800);
+});
+
+
+//link para instituto
+$('a[href^="#instituto"]').on('click',function (e) {
+  e.preventDefault();
+
+  var target = this.hash,
+  $target = $(target);
+
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
+});
 
-  //link para home
-  $('a[href^="#home"]').on('click',function (e) {
-    e.preventDefault();
+//link para especialidades
+$('a[href^="#especialidades"]').on('click',function (e) {
+  e.preventDefault();
 
-    var target = this.hash,
-    $target = $(target);
+  var target = this.hash,
+  $target = $(target);
 
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-      window.location.hash = target;
-    });
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
+});
 
+//link para profissionais
+$('a[href^="#profissionais"]').on('click',function (e) {
+  e.preventDefault();
 
-  //link para instituto
-  $('a[href^="#instituto"]').on('click',function (e) {
-    e.preventDefault();
+  var target = this.hash,
+  $target = $(target);
 
-    var target = this.hash,
-    $target = $(target);
-
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-      window.location.hash = target;
-    });
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
+});
 
-  //link para especialidades
-  $('a[href^="#especialidades"]').on('click',function (e) {
-    e.preventDefault();
+//link para parceiros
+$('a[href^="#parceiros"]').on('click',function (e) {
+  e.preventDefault();
 
-    var target = this.hash,
-    $target = $(target);
+  var target = this.hash,
+  $target = $(target);
 
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 900, 'swing', function () {
-      window.location.hash = target;
-    });
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
+});
 
-    //link para profissionais
-    $('a[href^="#profissionais"]').on('click',function (e) {
-      e.preventDefault();
+//link para contato
+$('a[href^="#contato"]').on('click',function (e) {
+  e.preventDefault();
 
-      var target = this.hash,
-      $target = $(target);
+  var target = this.hash,
+  $target = $(target);
 
-      $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-        window.location.hash = target;
-      });
-    });
-
-    //link para parceiros
-    $('a[href^="#parceiros"]').on('click',function (e) {
-      e.preventDefault();
-
-      var target = this.hash,
-      $target = $(target);
-
-      $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-        window.location.hash = target;
-      });
-    });
-
-    //link para contato
-    $('a[href^="#contato"]').on('click',function (e) {
-      e.preventDefault();
-
-      var target = this.hash,
-      $target = $(target);
-
-      $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-        window.location.hash = target;
-      });
-    });
-
-
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 900, 'swing', function () {
+    window.location.hash = target;
   });
+});
+
+
+});

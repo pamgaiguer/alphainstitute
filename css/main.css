@@ -4,6 +4,18 @@ html, body{
 body{
   font-family: 'Lato';
 }
+#header{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  height: 115px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .navbar{
   margin-bottom: 0px;
 }
@@ -88,11 +100,11 @@ body{
 .div-home{
   background-color: #00b9b4;
   height: 650px;
-  background-size: auto 100%;
+  background-size: cover;
 }
 .div-instituto{
   background: url('../images/bg2.jpg') no-repeat top center;
-  background-size: auto 100;%
+  background-size: cover;
   height: 610px;
 }
 .div-especialidades{
