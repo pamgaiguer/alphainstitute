@@ -100,7 +100,7 @@ body{
   background-size: cover;
 }
 .div-home .carousel .item img{
-  min-height: 570px;
+  min-height: 100%;
 }
 .div-instituto{
   background: url('../images/bg2.jpg') no-repeat top center;
