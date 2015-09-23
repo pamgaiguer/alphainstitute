@@ -3,13 +3,17 @@ html, body{
 }
 body{
   font-family: 'Lato';
-  padding-bottom: 115px;
 }
 #header{
   background-color: white;
-border-bottom: 1px solid #10ab9d;
+  border-bottom: 1px solid #10ab9d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0 0 0;
+  height: 115px;
+  border: 1px solid #f0f;
 }
-
 .navbar{
   margin-bottom: 0px;
 }
@@ -98,7 +102,6 @@ border-bottom: 1px solid #10ab9d;
 }
 .div-instituto{
   background: url('../images/bg2.jpg') no-repeat top center;
-  background-size: cover;
   height: 610px;
 }
 .div-especialidades{
@@ -137,15 +140,10 @@ border-bottom: 1px solid #10ab9d;
 .div-instituto .line3 a, .div-instituto .line3 a:visited, .div-instituto .line3 a:hover{
   color: #10bab4;
 }
-.div-especialidades h2{
-}
 .div-especialidades .line1{
   color: white;
   text-shadow: 1px 1px 1px #eee;
-  margin: 25px 0;
-}
-.div-especialidades .line2{
-  color: white;
+  margin: 15px 0;
 }
 .div-especialidades .media-heading{
   color: white;
@@ -154,8 +152,21 @@ border-bottom: 1px solid #10ab9d;
 .div-especialidades .media-body p{
   color: white;
 }
-.div-profissionais h4, .div-profissionais p{
+.div-profissionais h2, .div-profissionais p{
   color: #10AB9D;
+}
+.div-profissionais h2{
+  text-shadow: 1px 1px 1px #00b9b4;
+}
+.div-parceiros {
+  color: white;
+}
+.div-parceiros h2{
+  color: white;
+  text-shadow: 1px 1px 1px #eee;
+}
+footer{
+  height: 120px;
 }
 footer ul li a{
   text-transform: uppercase;

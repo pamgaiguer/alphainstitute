@@ -16,11 +16,8 @@ $(document).ready(function() {
   });
 
   $('#fullpage').fullpage({
-    menu: '#header',
     verticalCentered: false,
     css3: true,
-    fixedElements: '#header',
-    paddingTop: '120px'
   });
 
   var target = {
