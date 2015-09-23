@@ -10,9 +10,7 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 0 0 0;
   height: 115px;
-  border: 1px solid #f0f;
 }
 .navbar{
   margin-bottom: 0px;
@@ -96,6 +94,7 @@ body{
   right: 30%;
 }
 .div-home{
+  padding-top: 110px;
   background-color: #00b9b4;
   height: 650px;
   background-size: cover;
