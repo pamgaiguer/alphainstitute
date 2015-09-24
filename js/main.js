@@ -1,23 +1,25 @@
 $(document).ready(function() {
 
-  var goTop = $('<div class="go-top">Voltar ao topo</div>');
-  $('body').append(goTop);
-  $(window).scroll(function() {
-    if ($(this).scrollTop() != 0) {
-      goTop.fadeIn();
-    } else {
-      goTop.fadeOut();
-    }
-  });
-  goTop.click(function() {
-    $('body,html').animate({
-      scrollTop : 0
-    }, 800);
-  });
+  // var goTop = $('<div class="go-top">Voltar ao topo</div>');
+  // $('body').append(goTop);
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() != 0) {
+  //     goTop.fadeIn();
+  //   } else {
+  //     goTop.fadeOut();
+  //   }
+  // });
+  // goTop.click(function() {
+  //   $('body,html').animate({
+  //     scrollTop : 0
+  //   }, 800);
+  // });
 
   $('#fullpage').fullpage({
     verticalCentered: false,
     css3: true,
+    scrollingSpeed: 700
+//    slidesNavigation: true
   });
 
   var target = {

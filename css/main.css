@@ -98,11 +98,14 @@ body{
   right: 30%;
 }
 .div-home{
-  padding-top: 112px;
+  padding-top: 120px;
   background-color: #00b9b4;
   height: 650px;
   background-size: cover;
-  overflow: hidden;
+}
+.div-home .slide img{
+  width: 109%;
+  /*height: 100%;*/
 }
 .div-instituto{
   background: url('../images/bg2.jpg') no-repeat top center;
