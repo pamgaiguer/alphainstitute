@@ -44,12 +44,6 @@ $(document).ready(function() {
     $(this).parent().addClass("active");
   });
 
-  $('.carousel').carousel({
-    interval: 7000,
-    pause: "false"
-  });
-
-
 //link para home
 $('a[href^="#home"]').on('click',function (e) {
   e.preventDefault();
