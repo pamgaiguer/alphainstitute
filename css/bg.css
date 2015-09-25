@@ -7,6 +7,7 @@
   background: url('../images/bg2.jpg') no-repeat top center;
   background-size: cover;
   background-color: white;
+  color: #7b7b7b;
 }
 .div-especialidades{
   background: url('../images/bg3.jpg') no-repeat top center;
@@ -27,30 +28,33 @@
   padding: 20px 0;
   background-color: white;
 }
-.div-instituto p, .div-instituto h2{
-  color: #7b7b7b;
+.div-instituto h2{
+  font-family: 'Avenir-Heavy';
+  margin-bottom: 5%;
 }
-.div-instituto .line1{
-  font-size: 16px;
-}
-.div-instituto .line1 span{
-  text-transform: uppercase;
-}
-.div-instituto .line2{
+.div-instituto p{
   color: #9d9d9d;
-  font-size: 14px;
+  font-size: 18px;
   margin: 50px 0;
 }
-.div-instituto .line3 a, .div-instituto .line3 a:visited, .div-instituto .line3 a:hover{
+.div-instituto h3 a, .div-instituto h3 a:visited, .div-instituto h3 a:hover{
   color: #10bab4;
+  font-family: 'Avenir-Medium';
+  font-weight: bold;
+  font-size: 26px;
+  padding-top: 15%;
+  display: block;
 }
+
 .div-especialidades h2{
-  padding-top: 25px;
-}
-.div-especialidades .line1{
+  font-family: 'Avenir-Heavy';
+  padding-top: 20px;
   color: white;
   text-shadow: 1px 1px 1px #eee;
-  margin: 15px 0;
+  margin: 50px 0;
+}
+.div-especialidades .media{
+  padding-top: 10%;
 }
 .div-especialidades .media-heading{
   color: white;
@@ -59,27 +63,45 @@
 .div-especialidades .media-body p{
   color: white;
 }
-.div-profissionais h2{
-  padding-top: 40px;
-}
-.div-profissionais h2, .div-profissionais p{
+
+.div-profissionais{
   color: #10AB9D;
+}
+.div-profissionais h2{
+  padding-top: 50px;
+  font-family: 'Avenir-Heavy';
+  margin: 50px 0;
 }
 .div-profissionais h2{
   text-shadow: 1px 1px 1px #00b9b4;
 }
+.div-profissionais {
+  font-size: 18px;
+}
+
 .div-parceiros {
   color: white;
 }
 .div-parceiros h2{
   padding-top: 25px;
   color: white;
+  font-family: 'Avenir-Heavy';
   text-shadow: 1px 1px 1px #eee;
 }
+.div-parceiros p{
+  font-size: 18px;
+}
+
 footer{
   height: 200px;
+}
+footer ul li{
+  color: #7b7b7b;
 }
 footer ul li a{
   text-transform: uppercase;
   color: #00b9b4;
+}
+.text-indent{
+  text-indent: -9999px;
 }
