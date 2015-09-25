@@ -2,19 +2,17 @@
   .div-instituto{
     background-image: url('../images/bg2.jpg');
     background-size: contain;
+    font-size: 16px;
   }
   .div-especialidades{
-    background-image: url('../images/bg3.jpg');
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-color: #00b9b4;
+    background-repeat: no-repeat;
+    height: 1200px;
   }
   .div-parceiros{
-    background-image: url('../images/bg4.jpg');
-    background-repeat: repeat-y;
-    background-size: contain;
-  }
-  .div-home, .div-instituto, .div-especialidades, .div-profissionais, .div-parceiros, .div-contato{
-    background-size: contain;
+    background-image: url('../images/bg5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .navbar-brand {
     height: 110px;
@@ -40,11 +38,15 @@
   }
   .navbar .navbar-collapse {
     text-align: center;
+    background-color: white;
   }
   .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     color: white;
     background-color: #10AB9D;
+  }
+  footer ul li{
+    text-align: center;
   }
 
 }
