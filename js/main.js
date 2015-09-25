@@ -44,90 +44,84 @@ $(document).ready(function() {
     $(this).parent().addClass("active");
   });
 
-//link para home
-$('a[href^="#home"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#home"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
 
-//link para instituto
-$('a[href^="#instituto"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#instituto"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
-//link para especialidades
-$('a[href^="#especialidades"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#especialidades"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
-//link para profissionais
-$('a[href^="#profissionais"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#profissionais"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
-//link para parceiros
-$('a[href^="#parceiros"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#parceiros"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
-//link para contato
-$('a[href^="#contato"]').on('click',function (e) {
-  e.preventDefault();
+// $('a[href^="#contato"]').on('click',function (e) {
+//   e.preventDefault();
 
-  var target = this.hash,
-  $target = $(target);
+//   var target = this.hash,
+//   $target = $(target);
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
-  }, 900, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+//   $('html, body').stop().animate({
+//     'scrollTop': $target.offset().top
+//   }, 900, 'swing', function () {
+//     window.location.hash = target;
+//   });
+// });
 
 
 });

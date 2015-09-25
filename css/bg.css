@@ -42,7 +42,7 @@
   font-family: 'Avenir-Medium';
   font-weight: bold;
   font-size: 26px;
-  padding-top: 15%;
+  padding-top: 10%;
   display: block;
 }
 
@@ -54,7 +54,7 @@
   margin: 50px 0;
 }
 .div-especialidades .media{
-  padding-top: 10%;
+  vertical-align: middle;
 }
 .div-especialidades .media-heading{
   color: white;
