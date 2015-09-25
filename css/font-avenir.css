@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Conv_AvenirLTStd-Roman';
+  src: url('fonts/AvenirLTStd-Roman.eot');
+  src: local('☺'), url('fonts/AvenirLTStd-Roman.woff') format('woff'), url('fonts/AvenirLTStd-Roman.ttf') format('truetype'), url('fonts/AvenirLTStd-Roman.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_AvenirLTStd-Medium';
+  src: url('fonts/AvenirLTStd-Medium.eot');
+  src: local('☺'), url('fonts/AvenirLTStd-Medium.woff') format('woff'), url('fonts/AvenirLTStd-Medium.ttf') format('truetype'), url('fonts/AvenirLTStd-Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_AvenirLTStd-Heavy';
+  src: url('fonts/AvenirLTStd-Heavy.eot');
+  src: local('☺'), url('fonts/AvenirLTStd-Heavy.woff') format('woff'), url('fonts/AvenirLTStd-Heavy.ttf') format('truetype'), url('fonts/AvenirLTStd-Heavy.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_AvenirLTStd-Black';
+  src: url('fonts/AvenirLTStd-Black.eot');
+  src: local('☺'), url('fonts/AvenirLTStd-Black.woff') format('woff'), url('fonts/AvenirLTStd-Black.ttf') format('truetype'), url('fonts/AvenirLTStd-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
