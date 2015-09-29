@@ -90,7 +90,19 @@
 .div-parceiros p{
   font-size: 18px;
 }
-
+.bg-parceiros{
+  background-color: rgba(255,255,255,0.3);
+  padding: 15px;
+  border-radius: 20px;
+}
+.partner{
+  background-color: white;
+  border-radius: 10px;
+  color: #7b7b7b;
+}
+.parnter p{
+  padding: 5px;
+}
 footer{
   height: 200px;
 }
