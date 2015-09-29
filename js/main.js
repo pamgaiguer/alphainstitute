@@ -15,34 +15,45 @@ $(document).ready(function() {
   //   }, 800);
   // });
 
-  $('#fullpage').fullpage({
-    verticalCentered: false,
-    css3: true,
-    scrollingSpeed: 700
+$('#fullpage').fullpage({
+  verticalCentered: false,
+  css3: true,
+  scrollingSpeed: 700
 //    slidesNavigation: true
-  });
+});
 
-  var target = {
-    'index': 'index.php',
-    'empresa': 'empresa.php',
-    'propolis': 'propolis.php',
-    'producao': 'producao.php',
-    'eventos': 'eventos.php',
-    'contato': 'contato.php'
-  };
-  var pageName = 'index';
-  var address = window.location.href.split('/');
-  $.each(address, function(key, item) {
-    if (item.indexOf("php") != -1) {
-      pageName = item.split('.')[0];
-    }
-  });
-  $('a[href^="' + target[pageName] + '"]').parent().addClass("active");
+var target = {
+  'index': 'index.php',
+  'empresa': 'empresa.php',
+  'propolis': 'propolis.php',
+  'producao': 'producao.php',
+  'eventos': 'eventos.php',
+  'contato': 'contato.php'
+};
+var pageName = 'index';
+var address = window.location.href.split('/');
+$.each(address, function(key, item) {
+  if (item.indexOf("php") != -1) {
+    pageName = item.split('.')[0];
+  }
+});
+$('a[href^="' + target[pageName] + '"]').parent().addClass("active");
 
-  $(".nav a").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
-    $(this).parent().addClass("active");
-  });
+$(".nav a").on("click", function(){
+  $(".nav").find(".active").removeClass("active");
+  $(this).parent().addClass("active");
+});
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('#slideshow');
+},  5000);
 
 //link para home
 $('a[href^="#home"]').on('click',function (e) {

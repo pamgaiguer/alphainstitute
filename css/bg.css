@@ -42,7 +42,6 @@
   font-family: 'Avenir-Medium';
   font-weight: bold;
   font-size: 26px;
-  padding-top: 15%;
   display: block;
 }
 
@@ -51,7 +50,7 @@
   padding-top: 20px;
   color: white;
   text-shadow: 1px 1px 1px #eee;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .div-especialidades .media{
   padding-top: 10%;
@@ -70,7 +69,7 @@
 .div-profissionais h2{
   padding-top: 50px;
   font-family: 'Avenir-Heavy';
-  margin: 50px 0;
+  margin-top: 10px;
 }
 .div-profissionais h2{
   text-shadow: 1px 1px 1px #00b9b4;
