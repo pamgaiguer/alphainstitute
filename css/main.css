@@ -7,6 +7,16 @@ body{
 .font-title{
   font-family: 'DIN-Condensed-Bold';
 }
+.green-text{
+  color: #00b9b4 !important;
+}
+.link-box{
+  border:3px solid #00b9d4;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 22px;
+  color: #00b9d4;
+}
 .go-top{
   background: #FAFAFA;
   font-family: 'Lato';
@@ -28,10 +38,10 @@ body{
 .carousel,
 .item,
 .active {
-    height: 100%;
+  height: 100%;
 }
 .carousel-inner {
-    height: 100%;
+  height: 100%;
 }
 .fill {
   width: 100%;
@@ -84,14 +94,14 @@ body{
   right: 30%;
 }
 #slideshow {
-    margin: 50px auto;
-    position: relative;
-    padding: 10px;
+  margin: 50px auto;
+  position: relative;
+  padding: 10px;
 }
 #slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
