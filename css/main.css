@@ -181,7 +181,7 @@ body{
 .div-parceiros{
   background: url('../images/bg5.jpg') no-repeat top center;
   background-size: cover;
-  height: 981px;
+  height: 879px;
 }
 .div-contato{
   padding: 20px 0;
@@ -264,8 +264,7 @@ body{
   padding: 5px;
 }
 footer{
-
-  height: 200px;
+  height: 100px;
 }
 footer ul li{
   color: #7b7b7b;
