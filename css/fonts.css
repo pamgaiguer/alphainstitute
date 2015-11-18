@@ -1,4 +1,17 @@
 @font-face {
+  font-family: 'DIN-Condensed-Bold';
+  src: url('../fonts/DIN-Condensed-Bold.eot');
+  src: url('../fonts/DIN-Condensed-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DIN-Condensed-Bold.woff2') format('woff2'),
+       url('../fonts/DIN-Condensed-Bold.woff') format('woff'),
+       url('../fonts/DIN-Condensed-Bold.ttf') format('truetype'),
+       url('../fonts/DIN-Condensed-Bold.svg#DINCondensed-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'Avenir-Regular';
   src: url('../fonts/AvenirLTStd-Roman.eot');
   src: url('../fonts/AvenirLTStd-Roman.woff') format('woff'),

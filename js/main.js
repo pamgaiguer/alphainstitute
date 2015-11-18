@@ -15,12 +15,12 @@ $(document).ready(function() {
   //   }, 800);
   // });
 
-$('#fullpage').fullpage({
-  verticalCentered: false,
-  css3: true,
-  scrollingSpeed: 700
-//    slidesNavigation: true
-});
+// $('#fullpage').fullpage({
+//   verticalCentered: false,
+//   css3: true,
+//   scrollingSpeed: 700
+// //    slidesNavigation: true
+// });
 
 var target = {
   'index': 'index.php',

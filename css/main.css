@@ -1,3 +1,4 @@
+
 html, body{
   height: 100%;
 }
@@ -9,6 +10,18 @@ body{
 }
 .green-text{
   color: #00b9b4 !important;
+}
+.grey-text{
+  color: #9d9d9d;
+}
+.header-green{
+  padding-top: 105px;
+  background-color: #00b9b4;
+}
+.header-green h1{
+  color: white;
+  padding: 20px 0;
+  line-height: 50px;
 }
 .link-box{
   border:3px solid #00b9d4;
@@ -104,4 +117,180 @@ body{
   left: 10px;
   right: 10px;
   bottom: 10px;
+}
+
+/* css para navbar */
+#header{
+  background-color: white;
+  border-bottom: 1px solid #10ab9d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 105px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar-nav li a {
+  text-transform: uppercase;
+  line-height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #00b9b4;
+  font-family: 'DIN-Condensed-Bold';
+  font-size: 18px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #10AB9D;
+}
+/* css para backgrounds */
+.div-home{
+  padding-top: 105px;
+  background-color: #00b9b4;
+  height: 650px;
+}
+.div-instituto{
+  background: url('../images/bg2.jpg') no-repeat top center;
+  background-size: cover;
+  background-color: white;
+  color: #7b7b7b;
+}
+.div-especialidades{
+  background: url('../images/bg3.jpg') no-repeat top center;
+  background-size: cover;
+  height: 1005px;
+}
+.div-profissionais{
+  background: url('../images/bg4.jpg') no-repeat top center;
+  background-size: cover;
+  height: 693px;
+}
+.div-parceiros{
+  background: url('../images/bg5.jpg') no-repeat top center;
+  background-size: cover;
+  height: 981px;
+}
+.div-contato{
+  padding: 20px 0;
+  background-color: white;
+}
+.div-instituto h2{
+  font-family: 'Avenir-Heavy';
+  margin-bottom: 5%;
+}
+.div-instituto p{
+  color: #9d9d9d;
+  font-size: 18px;
+  margin: 50px 0;
+}
+.div-instituto h3 a, .div-instituto h3 a:visited, .div-instituto h3 a:hover{
+  color: #10bab4;
+  font-family: 'Avenir-Medium';
+  font-weight: bold;
+  font-size: 26px;
+  display: block;
+}
+
+.div-especialidades h2{
+  font-family: 'Avenir-Heavy';
+  padding-top: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px #eee;
+  margin: 20px 0;
+}
+.div-especialidades .media{
+  vertical-align: middle;
+}
+.div-especialidades .media-heading{
+  color: white;
+  font-weight: bold;
+}
+.div-especialidades .media-body p{
+  color: white;
+}
+
+.div-profissionais{
+  color: #10AB9D;
+}
+.div-profissionais h2{
+  padding-top: 50px;
+  font-family: 'Avenir-Heavy';
+  margin-top: 10px;
+}
+.div-profissionais h2{
+  text-shadow: 1px 1px 1px #00b9b4;
+}
+.div-profissionais {
+  font-size: 18px;
+}
+
+.div-parceiros {
+  color: white;
+}
+.div-parceiros h2{
+  padding-top: 25px;
+  color: white;
+  font-family: 'Avenir-Heavy';
+  text-shadow: 1px 1px 1px #eee;
+}
+.div-parceiros p{
+  font-size: 18px;
+}
+.bg-parceiros{
+  background-color: rgba(255,255,255,0.3);
+  padding: 15px;
+  border-radius: 20px;
+}
+.partner{
+  background-color: white;
+  border-radius: 10px;
+  color: #7b7b7b;
+}
+.parnter p{
+  padding: 5px;
+}
+footer{
+  height: 200px;
+}
+footer ul li{
+  color: #7b7b7b;
+}
+footer ul li a{
+  text-transform: uppercase;
+  color: #00b9b4;
+}
+.text-indent{
+  text-indent: -9999px;
+}
+
+/* css para internas */
+.img-alphagroup {
+  margin-top: -220px;
+}
+.text-intern{
+  line-height: 30px;
+  font-size: 16px;
+}
+.grey-background{
+  background-color: #F2F2F2;
+}
+.alphagroup-bg{
+  background-image: url('../images/alphagroup_background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 500px;
+}
+.alphagroup-bg h1{
+  color: white ;
+  padding-top: 160px;
 }

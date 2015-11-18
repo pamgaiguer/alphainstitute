@@ -7,12 +7,9 @@
   <title>Instituto Alpha</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery.fullPage.css">
-  <link rel="stylesheet" href="css/font-dincondensed.css">
-  <link rel="stylesheet" href="css/font-avenir.css">
+  <!-- <link rel="stylesheet" href="css/jquery.fullPage.css"> -->
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/bg.css">
   <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
