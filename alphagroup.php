@@ -51,31 +51,33 @@
 
     <div class="alphagroup-bg">
       <div class="container">
-        <h1>Sobre a Dra Emíla Gadelha</h1>
-<p>
-Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade de São Paulo – campus Ribeirão Preto, pós-graduação (Mestrado) em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela Escola Paulista de Medicina (atual UNIFESP).
-Bolsista do MONBUSHO (Ministério da Educação, Ciência e Cultura do Governo Japonês) na área de laringe e voz.
-Formação em Medicina Biológica Alemã, é membro da Diretoria da Associação Brasileira de Homeopatia e Homotoxicologia (ABHH).
-Foi a 1ª. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ) e atualmente é  Diretora
-Secretária da ABOZ .
-Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre “Microecologia
-Intestinal e Adoecimento Sistêmico”  e  “Ozonioterapia”.
-Foi Diretora-Presidente e fundadora da organização não-governamental Instituto Recicle Milhões
-de Vidas (atual Instituto Recicle), dedicada a promover educação ambiental e gerar recursos financeiros
-para outras instituições que atendem crianças carentes a partir da implantação de programas de coleta
-seletiva de lixo.
-Formação complementar: cursos nas áreas: Medicina Hiperbárica, Homeopatia, Psicossomática, Medicina
-Tradicional Chinesa e Acupuntura, Homotoxicologia, Ozonioterapia, Oligoterapia Catalítica,
-Auriculoacupuntura, Bioressonância,  Prática Ortomolecular, Microscopia, Iridologia, Eneagrama,
-Resíduos Sólidos (lixo) e Preservação do Meio Ambiente.
-
-</p>
+        <h1 class="white-text">Sobre a Dra Emíla Gadelha</h1>
+        <br><Br>
+        <p class="white-text">
+            Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade <br>
+            de São Paulo - campus Ribeirão Preto, pós-graduação (Mestrado) em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela <br>
+            Escola Paulista de Medicina (atual UNIFESP).<br>
+            <Br>
+            Bolsista do MONBUSHO (Ministério da Educação, Ciência e Cultura do Governo Japonês) na área de laringe e voz.<br>
+            <br>
+            Formação em Medicina Biológica Alemã, é membro da Diretoria da Associação Brasileira de Homeopatia e Homotoxicologia (ABHH).<br>
+            <br>
+            Foi a 1ª. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ) e atualmente é Diretora Secretária da ABOZ. <br>
+            <br>
+            Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre “Microecologia Intestinal e Adoecimento Sistêmico” e “Ozonioterapia”.<br>
+            <br>
+            Foi Diretora-Presidente e fundadora da organização não-governamental Instituto Recicle Milhões de Vidas (atual Instituto Recicle), dedicada a promover<br>
+            educação ambiental e gerar recursos financeiros para outras instituições que atendem crianças carentes a partir da implantação de programas de coleta <br>
+            seletiva de lixo.
+            <br>
+            Formação complementar: cursos nas áreas: Medicina Hiperbárica, Homeopatia, Psicossomática, Medicina Tradicional Chinesa e Acupuntura, <br>
+            Homotoxicologia, Ozonioterapia, Oligoterapia Catalítica, Auriculoacupuntura, Bioressonância,  Prática Ortomolecular, Microscopia, Iridologia, Eneagrama, <br>
+            Resíduos Sólidos (lixo) e Preservação do Meio Ambiente.<br>
+          </p>
+        </div>
       </div>
 
-    </div>
-
-
-  </div> <!-- div important para funcionamento do plugin -->
-  <?php
-    //include "_footer.php";
-  ?>
+    </div> <!-- div important para funcionamento do plugin -->
+    <?php
+    include "_footer.php";
+    ?>

@@ -14,6 +14,9 @@ body{
 .grey-text{
   color: #9d9d9d;
 }
+.white-text{
+  color: white;
+}
 .header-green{
   padding-top: 105px;
   background-color: #00b9b4;
@@ -183,6 +186,7 @@ body{
 .div-contato{
   padding: 20px 0;
   background-color: white;
+  border-top: 1px solid #00b9b4;
 }
 .div-instituto h2{
   font-family: 'Avenir-Heavy';
@@ -256,10 +260,11 @@ body{
   border-radius: 10px;
   color: #7b7b7b;
 }
-.parnter p{
+.partner p{
   padding: 5px;
 }
 footer{
+
   height: 200px;
 }
 footer ul li{
@@ -288,9 +293,11 @@ footer ul li a{
   background-image: url('../images/alphagroup_background.png');
   background-repeat: no-repeat;
   background-position: top center;
-  min-height: 500px;
+  min-height: 750px;
 }
 .alphagroup-bg h1{
-  color: white ;
   padding-top: 160px;
+}
+.alphagroup-bg p{
+  font-size: 16px;
 }
