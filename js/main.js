@@ -24,10 +24,10 @@ $(document).ready(function() {
 
 var target = {
   'index': 'index.php',
-  'empresa': 'empresa.php',
-  'propolis': 'propolis.php',
-  'producao': 'producao.php',
-  'eventos': 'eventos.php',
+  'alphagroup': 'alphagroup.php',
+  'especialidades': 'especialidades.php',
+  'profissionais': 'profissionais.php',
+  'parceiros': 'parceiros.php',
   'contato': 'contato.php'
 };
 var pageName = 'index';
