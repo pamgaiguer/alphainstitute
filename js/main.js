@@ -25,7 +25,7 @@ $(document).ready(function() {
 var target = {
   'index': 'index.php',
   'alphagroup': 'alphagroup.php',
-  'especialidades': 'especialidades.php',
+  'galeria': 'galeria.php',
   'profissionais': 'profissionais.php',
   'parceiros': 'parceiros.php',
   'contato': 'contato.php'
