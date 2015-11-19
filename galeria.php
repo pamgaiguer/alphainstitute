@@ -2,8 +2,7 @@
 <div class="header-green">
   <div class="container">
     <h1>
-    Conte também com os nossos<br>
-    <strong>Parceiros de confiança!</strong>
+      Veja nossa <strong>galeria</strong>!
     </h1>
   </div>
 </div>

@@ -77,7 +77,7 @@
         </div>
       </div>
 
-    </div> <!-- div important para funcionamento do plugin -->
+    <!-- /div --> <!-- div important para funcionamento do plugin -->
     <?php
     include "_footer.php";
     ?>

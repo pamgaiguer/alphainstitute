@@ -1,4 +1,14 @@
 <?php include "_header.php";?>
+
+<div class="header-green">
+  <div class="container">
+    <h1>
+      Conheça nossos <strong>profissionais</strong><br>
+      que irão cuidar da sua <strong>saúde!</strong>
+    </h1>
+  </div>
+</div>
+
 <div id="grid-gallery" class="grid-gallery">
   <section class="grid-wrap container">
     <ul class="grid">

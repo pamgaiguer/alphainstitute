@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <div id="fullpage">
+  <!-- <div id="fullpage"> -->
     <nav class="navbar" id="header">
       <div class="container">
         <div class="navbar-header">
@@ -31,7 +31,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="alphagroup.php">O Alpha Group</a></li>
-            <li><a href="especialidades.php">Especialidades</a></li>
+            <li><a href="galeria.php">Galeria</a></li>
             <li><a href="profissionais.php">Os profissionais</a></li>
             <li><a href="parceiros.php">Parceiros</a></li>
             <li><a href="contato.php">Contato</a></li>
