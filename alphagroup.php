@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <div class="container ">
+    <div class="container">
       <img src="images/alphagroup_hearts.jpg" alt="alphagroup" class="img-alphagroup pull-right">
       <h1 class="green-text pull-left">Conheça o Grupo Alpha</h1>
       <p class="pull-left grey-text text-intern text-justify">

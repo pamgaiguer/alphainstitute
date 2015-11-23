@@ -1,0 +1,121 @@
+*{
+    margin: 0 auto; padding: 0 auto;
+    font-size: 14px;
+    font-family: 'GothamLight';
+    font-weight: bold;
+}
+
+@font-face {
+    /* This declaration targets Internet Explorer */
+    font-family: 'GothamLight';
+    src: url('../fonts/GothamLight.eot');
+}
+
+@font-face {
+    /* This declaration targets everything else */
+    font-family: 'GothamLight';
+    src: url(//:) format('no404'), url('../fonts/GothamLight.woff') format('woff'), url('../fonts/GothamLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* This declaration targets Internet Explorer */
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.eot');
+}
+
+@font-face {
+    /* This declaration targets everything else */
+    font-family: 'GothamBold';
+    src: url(//:) format('no404'), url('../fonts/GothamBold.woff') format('woff'), url('../fonts/GothamBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#faixa {
+    border-top:10px solid #10bab4;
+    width: 100%;
+    margin: 0 0 20px 0;
+    height: 10px;
+}
+
+.logo {
+    width:  430px;
+    height: 200px;
+    margin: 20px auto 50px auto;
+    background: url('../images/logo.png') no-repeat;
+}
+
+.content {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.col-1 {
+    width: 50%;
+    float: left;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+}
+
+.content-verde {
+    margin-top: 20px ;
+    background: #10bab4;
+    padding: 20px 0;
+}
+.text {
+    margin: 0 auto;
+}
+.text h1, .text h2, .text a {
+    color: #fff;
+    font-family: 'GothamLight';
+    line-height: 37px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 -10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    text-align: left !important;
+    line-height: 24px;
+}
+h2 {
+    color: #10bab4;
+    font-family: 'GothamBold';
+}
+
+.msg {
+    color: #10bab4;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'GothamLight';
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p {
+    color:#000;
+}
+
+.clearfix {
+    clear: both;
+    margin: 5px 0;
+}

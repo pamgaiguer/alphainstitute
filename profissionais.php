@@ -116,5 +116,12 @@
     <div class="info-keys icon">Navegue usando as setas direcionais</div>
   </section><!-- // slideshow -->
 </div><!-- // grid-gallery -->
-
+<script src="js/modernizr.custom.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script>
+  new CBPGridGallery(document.getElementById('grid-gallery'));
+</script>
 <?php include "_footer.php";?>
