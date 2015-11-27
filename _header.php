@@ -48,11 +48,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logo_alpha.jpg" alt="alphagroup logo" /></a>
+          <a class="navbar-brand" href="index.php"><img src="images/logo_alpha.jpg" alt="alphagroup logo" /></a>
         </div>
         <div class="collapse navbar-collapse" id="top-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="homepage.html">Home <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="alphagroup.php">O Alpha Group</a></li>
             <li><a href="galeria.php">Galeria</a></li>
             <li><a href="profissionais.php">Os profissionais</a></li>

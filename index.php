@@ -1,72 +1,36 @@
 <?php include "_header.php";?>
-
-
 		<!-- Slider -->
-		<div id="slider" class="fullSection">
-			<div class="container">
-				<!-- fullscreen-slider -->
-				<div id="fullscreen-slider" class="carousel slide wow bounceIn showdelay4" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#fullscreen-slider" data-slide-to="0" class="active"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="1"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="2"></li>
-					</ol>
+		<section class="slide-inicial">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
 
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<div class="slider-caption">
-								<i class="fa fa-cogs"></i>
-								<h2> MultiPurpose Theme</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. </p>
-								<div class="page-scroll">
-									<a href="#icon-box" class="btn btn-custom btn-lg">Learn More</a>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="slider-caption">
-								<i class="fa fa-cogs"></i>
-								<h2> With LESS</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. </p>
-								<div class="page-scroll">
-									<a href="#icon-box" class="btn btn-custom btn-lg">Learn More</a>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="slider-caption">
-								<i class="fa fa-cogs"></i>
-								<h2> With LESS</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. </p>
-								<div class="page-scroll">
-									<a href="#icon-box" class="btn btn-custom btn-lg">Learn More</a>
-								</div>
-							</div>
-						</div>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="fill" style="background-image:url('images/home_instituto_001.jpg');"></div>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('images/home_instituto_002.jpg');"></div>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('images/home_instituto_003.jpg');"></div>
+        </div>
+      </div>
 
-					</div>
-
-					<!-- Controls -->
-					<a class="left carousel-control" href="#fullscreen-slider" role="button" data-slide="prev">
-						<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
-						<span class="fa fa-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#fullscreen-slider" role="button" data-slide="next">
-						<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-						<span class="fa fa-chevron-right"></span>
-					</a>
-				</div>
-				<!-- fullscreen-slider -->
-
-
-
-			</div>
-
-		</div>
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="arrow arrow-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="arrow arrow-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+		</section>
 		<!-- ./Slider -->
-
 		<!-- section -->
 		<div class="section">
 			<div class="container">
