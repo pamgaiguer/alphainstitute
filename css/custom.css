@@ -35,6 +35,10 @@
   background-color: #00b9b4;
   height: 650px;
 }
+.especialties{
+  background: url('../images/bg3.jpg') no-repeat top center;
+  background-size: cover;
+}
 .carousel, .item, .active, .carousel-inner {
   height: 100%;
 }
@@ -87,4 +91,12 @@
 .arrow-right{
   background-image: url('../images/arrow-right.png');
   right: 30%;
+}
+.icon-box img {
+  border: 1px solid #00B9B4;
+  border-radius: 50%;
+}
+.section-heading.dark {
+  color: white;
+  text-shadow: none;
 }
