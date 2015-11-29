@@ -39,6 +39,10 @@
   background: url('../images/bg3.jpg') no-repeat top center;
   background-size: cover;
 }
+.welcome{
+  background: url('../images/bg2.jpg') no-repeat top center;
+  min-height: 605px;
+}
 .carousel, .item, .active, .carousel-inner {
   height: 100%;
 }
