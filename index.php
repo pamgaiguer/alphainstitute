@@ -3,13 +3,13 @@
 <section class="slide-inicial">
 	<div id="owl-home" class="owl-carousel">
 		<div class="item">
-			<img src="images/home_instituto_001.jpg" class="img-responsive center-block" alt="home001">
+			<img src="images/home_instituto_001.jpg" width="1521" height="650" class="img-responsive center-block" alt="home001">
 		</div>
 		<div class="item">
-			<img src="images/home_instituto_002.jpg" class="img-responsive center-block" alt="home002">
+			<img src="images/home_instituto_002.jpg" width="1521" height="650" class="img-responsive center-block" alt="home002">
 		</div>
 		<div class="item">
-			<img src="images/home_instituto_003.jpg" class="img-responsive center-block" alt="home003">
+			<img src="images/home_instituto_003.jpg" width="1521" height="650" class="img-responsive center-block" alt="home003">
 		</div>
 	</div>
 </section>

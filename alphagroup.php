@@ -6,7 +6,7 @@
 			<!-- section -->
 			<div class="section page-header">
 				<div class="container">
-					<h1>About Us</h1>
+					<h1>Bem vindo ao Alpha Group</h1>
 				</div>
 			</div>
 			<!-- ./section -->
