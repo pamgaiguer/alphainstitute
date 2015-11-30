@@ -34,7 +34,7 @@
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: 90%;
 }
 
 .cbp-fwslider nav span {
@@ -76,14 +76,14 @@
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background: #ddd;
+	background: white;
 	margin: 4px;
 	border-radius: 50%;
 	cursor: pointer;
 }
 
 .cbp-fwdots span:hover {
-	background: #999;
+	background: #00B9B4;
 }
 
 .cbp-fwdots span.cbp-fwcurrent {

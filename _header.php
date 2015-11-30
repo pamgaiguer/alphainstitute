@@ -11,34 +11,28 @@
   <script src="js/modernizr.custom.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
   <!-- Animate -->
-  <link href="css/animate/animate.css" rel="stylesheet">
-  <!-- Fontawesome-->
+  <link rel="stylesheet" href="css/animate/animate.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- Owl Carousel -->
-  <link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
-  <link href="css/owl-carousel/owl.theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.theme.css">
   <!-- Magnific Popup -->
-  <link href="css/magnific-popup/magnific-popup.css" rel="stylesheet" >
+  <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
   <!-- Main-Style -->
-  <link rel="stylesheet" href="css/default-slides.css" />
   <link rel="stylesheet" href="css/component-slides.css" />
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
-
 <body>
-
   <!-- wrapper -->
   <div class="wrapper multipage">
-
     <div class="preloader">
       <div class="loader-item">
         <img src="images/loading.gif" alt="loader">
       </div>
     </div>
-
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom nav-dark navbar-fixed-top" role="navigation">

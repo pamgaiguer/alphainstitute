@@ -3,9 +3,9 @@
 <section class="slide-inicial">
 		<div id="cbp-fwslider" class="cbp-fwslider">
 			<ul>
-				<li><img src="images/home_instituto_001.jpg" alt="img01"/></li>
-				<li><img src="images/home_instituto_002.jpg" alt="img02"/></li>
-				<li><img src="images/home_instituto_003.jpg" alt="img03"/></li>
+				<li><a href="#"><img src="images/home_instituto_001.jpg" alt="img01"/></a></li>
+				<li><a href="#"><img src="images/home_instituto_002.jpg" alt="img02"/></a></li>
+				<li><a href="#"><img src="images/home_instituto_003.jpg" alt="img03"/></a></li>
 			</ul>
 		</div>
 </section>
