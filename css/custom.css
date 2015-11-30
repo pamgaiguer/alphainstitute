@@ -33,7 +33,6 @@
 }
 .slide-inicial{
   background-color: #00b9b4;
-  height: 650px;
 }
 .especialties{
   background: url('../images/bg3.jpg') no-repeat top center;
@@ -42,6 +41,11 @@
 .welcome{
   background: url('../images/bg2.jpg') no-repeat top center;
   min-height: 605px;
+}
+.partners{
+  background: url('../images/bg5.jpg') no-repeat top center;
+  min-height: 880px;
+  background-size: cover;
 }
 .carousel, .item, .active, .carousel-inner {
   height: 100%;
@@ -103,4 +107,20 @@
 .section-heading.dark {
   color: white;
   text-shadow: none;
+}
+.footer {
+  border-top: 1px solid #00B9B4;
+  background: white;
+}
+.footer a {
+  color: #00B9B4;
+}
+.footer p {
+  color: #9d9d9d;
+}
+.footer h3 {
+  color: #00B9B4;
+}
+ul.social-link li a {
+  color: #00B9B4;
 }

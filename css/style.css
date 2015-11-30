@@ -688,7 +688,7 @@ ul.social-link.dark li a {
 /* ==================================================
 	Footer
 ====================================================*/
-#footer {
+.footer {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.3);
 }
@@ -1123,5 +1123,10 @@ body.nopadd {
   }
   #main-menu .navbar-header {
     padding: 0;
+  }
+}
+@media (min-width: 768px){
+  #carousel{
+    min-height: 200px;
   }
 }
