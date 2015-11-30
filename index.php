@@ -1,34 +1,13 @@
 <?php include "_header.php";?>
 <!-- Slider -->
 <section class="slide-inicial">
-	<div id="carousel" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-			<li data-target="#carousel" data-slide-to="2"></li>
-		</ol>
-
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<div class="fill" style="background-image:url('images/home_instituto_001.jpg'); height: 650px;"></div>
-			</div>
-			<div class="item">
-				<div class="fill" style="background-image:url('images/home_instituto_002.jpg'); height: 650px;"></div>
-			</div>
-			<div class="item">
-				<div class="fill" style="background-image:url('images/home_instituto_003.jpg'); height: 650px;"></div>
-			</div>
+		<div id="cbp-fwslider" class="cbp-fwslider">
+			<ul>
+				<li><img src="images/home_instituto_001.jpg" alt="img01"/></li>
+				<li><img src="images/home_instituto_002.jpg" alt="img02"/></li>
+				<li><img src="images/home_instituto_003.jpg" alt="img03"/></li>
+			</ul>
 		</div>
-
-		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-			<span class="arrow arrow-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-			<span class="arrow arrow-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
 </section>
 <!-- ./Slider -->
 <!-- section -->

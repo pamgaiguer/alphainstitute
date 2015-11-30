@@ -46,6 +46,8 @@ $(document).ready(function() {
 });
 
 
+
+
 // ***********************************
 // totop
 // ***********************************
@@ -72,10 +74,10 @@ $(window).load(function(){
 $(document).ready(function(){
   $("#video-modal").on('hide.bs.modal', function(evt){
     var player = $(evt.target).find('iframe'),
-        vidSrc = player.prop('src');
+    vidSrc = player.prop('src');
     player.prop('src', ''); // to force it to pause
     player.prop('src', vidSrc);
-  });
+});
 });
 
 
@@ -87,10 +89,10 @@ $(document).ready(function(){
 // ***********************************
 
 $("body.bg-slider").backstretch([
-   "images/bg7.jpg",
-   "images/bg8.jpg",
-   "images/bg9.jpg",
-], {duration: 5000, fade: 1000});
+ "images/bg7.jpg",
+ "images/bg8.jpg",
+ "images/bg9.jpg",
+ ], {duration: 5000, fade: 1000});
 
 
 
@@ -102,8 +104,8 @@ $("body.bg-slider").backstretch([
 $('.gallery-item').magnificPopup({
   type: 'image',
   gallery:{
-	enabled:true
-  }
+   enabled:true
+}
 });
 
 
@@ -114,11 +116,11 @@ $('.gallery-item').magnificPopup({
 
 $(document).ready(function(){
 	wow = new WOW(
-	  {
-		animateClass: 'animated',
-		offset:       150
-	  }
-	);
+ {
+  animateClass: 'animated',
+  offset:       150
+}
+);
 	wow.init();
 });
 
@@ -145,11 +147,11 @@ $(document).ready(function( $ ) {
 /*
 	Jquery Validation using jqBootstrapValidation
    example is taken from jqBootstrapValidation docs
-  */
+   */
 
 
 
-$(function() {
+   $(function() {
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -181,11 +183,11 @@ $(function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                    .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                    .append("<strong>Your message has been sent. </strong>");
                     $('#success > .alert-success')
-                        .append('</div>');
+                    .append('</div>');
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
@@ -194,23 +196,23 @@ $(function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                    .append("</button>");
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + " it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Sorry for the inconvenience!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
             })
-        },
-        filter: function() {
-            return $(this).is(":visible");
-        },
-    });
+},
+filter: function() {
+    return $(this).is(":visible");
+},
+});
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
-        e.preventDefault();
-        $(this).tab("show");
-    });
+$("a[data-toggle=\"tab\"]").click(function(e) {
+    e.preventDefault();
+    $(this).tab("show");
+});
 });
 
 
@@ -231,10 +233,10 @@ $('#name').focus(function() {
 /*
 	Jquery Validation using jqBootstrapValidation
    example is taken from jqBootstrapValidation docs
-  */
+   */
 
 
-$(function() {
+   $(function() {
 
     $("input").jqBootstrapValidation({
         preventSubmit: true,
@@ -260,11 +262,11 @@ $(function() {
                     // Success message
                     $('#SubscribeForm #success_newsletter').html("<div class='alert alert-success'>");
                     $('#SubscribeForm #success_newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                    .append("</button>");
                     $('#SubscribeForm #success_newsletter > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                    .append("<strong>Your message has been sent. </strong>");
                     $('#SubscribeForm #success_newsletter > .alert-success')
-                        .append('</div>');
+                    .append('</div>');
 
                     //clear all fields
                     $('#SubscribeForm').trigger("reset");
@@ -273,23 +275,23 @@ $(function() {
                     // Fail message
                     $('#SubscribeForm #success_newsletter').html("<div class='alert alert-danger'>");
                     $('#SubscribeForm #success_newsletter > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                    .append("</button>");
                     $('#SubscribeForm #success_newsletter > .alert-danger').append("<strong>Sorry " + firstName + " it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Sorry for the inconvenience!");
                     $('#SubscribeForm #success_newsletter > .alert-danger').append('</div>');
                     //clear all fields
                     $('#SubscribeForm').trigger("reset");
                 },
             })
-        },
-        filter: function() {
-            return $(this).is(":visible");
-        },
-    });
+},
+filter: function() {
+    return $(this).is(":visible");
+},
+});
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
-        e.preventDefault();
-        $(this).tab("show");
-    });
+$("a[data-toggle=\"tab\"]").click(function(e) {
+    e.preventDefault();
+    $(this).tab("show");
+});
 });
 
 
@@ -298,3 +300,21 @@ $(function() {
 $('#email_subscribe').focus(function() {
     $('#SubscribeForm #success_newsletter').html('');
 });
+
+// ****************************************************************
+// Slide home
+// ****************************************************************
+
+$('document').ready(function(){
+                // init slider
+                $('#cbp-fwslider').cbpFWSlider();
+                setInterval( function(){
+                  if($('.cbp-fwnext').is(":visible"))
+                  {
+                    $('.cbp-fwnext').click();
+                }
+                else{
+                    $('.cbp-fwdots').find('span').click();
+                }
+            },5000);
+            });
