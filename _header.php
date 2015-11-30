@@ -10,7 +10,7 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+  <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet"> -->
   <!-- Animate -->
   <link rel="stylesheet" href="css/animate/animate.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -51,7 +51,7 @@
             <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="alphagroup.php">O Alpha Group</a></li>
             <li><a href="galeria.php">Galeria</a></li>
-            <li><a href="profissionais.php">Os profissionais</a></li>
+            <li><a href="professionals.php">Os profissionais</a></li>
             <li><a href="parceiros.php">Parceiros</a></li>
             <li><a href="contact.php">Contato</a></li>
           </ul>

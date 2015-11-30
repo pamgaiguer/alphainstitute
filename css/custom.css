@@ -106,8 +106,35 @@ ul.social-link li a {
   color: #00B9B4;
 }
 /*
+#10AB9D
+
 * Section for partners
 */
 .partners h2, .partners p{
   color: white;
+}
+/*
+* paginas internas
+*/
+.page-header{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,185,180,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,185,180,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(0,185,180,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,185,180,1) 0%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,185,180,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
+  background:radial-gradient(ellipse at center, rgba(0,185,180,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9b4', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
+  border: none;
+}
+.alphagroup-intern h2{
+  color: #00B9B4;
+}
+.alphagroup-intern p{
+  color: #9D9D9D;
+}
+.team-info h3, .team-info strong{
+  color: #00B9B4
+}
+.team-info p{
+  color: #9D9D9D;
 }
