@@ -45,6 +45,22 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function() {
+
+    $("#owl-home").owlCarousel({
+
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      responsive: true,
+      autoPlay: 4000,
+      autoplayTimeout:1000,
+      autoplayHoverPause:true,
+      stopOnHover: true,
+      rewindSpeed: 1000
+  });
+
+});
 
 
 
@@ -89,10 +105,10 @@ $(document).ready(function(){
 // ***********************************
 
 $("body.bg-slider").backstretch([
- "images/bg7.jpg",
- "images/bg8.jpg",
- "images/bg9.jpg",
- ], {duration: 5000, fade: 1000});
+   "images/bg7.jpg",
+   "images/bg8.jpg",
+   "images/bg9.jpg",
+   ], {duration: 5000, fade: 1000});
 
 
 
@@ -104,8 +120,8 @@ $("body.bg-slider").backstretch([
 $('.gallery-item').magnificPopup({
   type: 'image',
   gallery:{
-   enabled:true
-}
+     enabled:true
+ }
 });
 
 
@@ -116,11 +132,11 @@ $('.gallery-item').magnificPopup({
 
 $(document).ready(function(){
 	wow = new WOW(
- {
-  animateClass: 'animated',
-  offset:       150
-}
-);
+   {
+      animateClass: 'animated',
+      offset:       150
+  }
+  );
 	wow.init();
 });
 
@@ -300,21 +316,3 @@ $("a[data-toggle=\"tab\"]").click(function(e) {
 $('#email_subscribe').focus(function() {
     $('#SubscribeForm #success_newsletter').html('');
 });
-
-// ****************************************************************
-// Slide home
-// ****************************************************************
-
-$('document').ready(function(){
-                // init slider
-                $('#cbp-fwslider').cbpFWSlider();
-                setInterval( function(){
-                  if($('.cbp-fwnext').is(":visible"))
-                  {
-                    $('.cbp-fwnext').click();
-                }
-                else{
-                    $('.cbp-fwdots').find('span').click();
-                }
-            },5000);
-            });

@@ -1,5 +1,9 @@
+body{
+  font-family: 'Avenir-Regular';
+}
 .navbar{
   min-height: 125px;
+  font-family: 'DIN-Condensed-Bold';
 }
 .navbar-nav>li>a {
   line-height: 50px;
@@ -24,7 +28,7 @@
   font-weight: bold;
 }
 .bottom-footer {
-  color: black;
+  color: #9D9D9D;
   background: #FFF;
   padding: 10px 0;
 }
@@ -46,59 +50,6 @@
   background: url('../images/bg5.jpg') no-repeat top center;
   min-height: 880px;
   background-size: cover;
-}
-.carousel, .item, .active, .carousel-inner {
-  height: 100%;
-}
-.fill {
-  width: 100%;
-  height: 100%;
-  background-position: top center;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
-  overflow: hidden;
-}
-.carousel-indicators li {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 10px;
-}
-.carousel-indicators .active {
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  background-color: #10AB9D;
-  border: 1px solid #10AB9D;
-}
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-  display: inline-block;
-}
-.carousel-control.right, .carousel-control.left{
-  background-image: none;
-}
-.arrow{
-  width: 29px;
-  height: 50px;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 40%;
-}
-.arrow-left{
-  background-image: url('../images/arrow-left.png');
-  left: 30%;
-}
-.arrow-right{
-  background-image: url('../images/arrow-right.png');
-  right: 30%;
 }
 .icon-box img {
   border: 1px solid #00B9B4;
@@ -123,4 +74,36 @@
 }
 ul.social-link li a {
   color: #00B9B4;
+}
+/*
+* Section for home texts
+*
+*/
+.welcome-text h1{
+  color: #00B9B4;
+}
+.welcome-text > p:first-of-type{
+  color: #00B9B4;
+}
+.welcome-text p{
+  color: #9D9D9D;
+}
+/*
+* Section for especialties texts
+*
+*/
+.especialties h2, .especialties h3, .especialties p{
+  color: white;
+}
+/*
+* Section for Professionals
+*/
+.professionals h2, .professionals p{
+  color: #00B9B4;
+}
+/*
+* Section for partners
+*/
+.partners h2, .partners p{
+  color: white;
 }

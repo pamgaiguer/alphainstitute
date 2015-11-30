@@ -91,7 +91,6 @@
           <!-- jqbootstrapvalidator -->
           <script src="js/jqbootstrapvalidation/jqBootstrapValidation.js"></script>
           <!-- main -->
-  <script src="js/jquery.cbpFWSlider.min.js"></script>
   <script>
 
   </script>

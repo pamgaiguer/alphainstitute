@@ -1,21 +1,25 @@
 <?php include "_header.php";?>
 <!-- Slider -->
 <section class="slide-inicial">
-		<div id="cbp-fwslider" class="cbp-fwslider">
-			<ul>
-				<li><a href="#"><img src="images/home_instituto_001.jpg" alt="img01"/></a></li>
-				<li><a href="#"><img src="images/home_instituto_002.jpg" alt="img02"/></a></li>
-				<li><a href="#"><img src="images/home_instituto_003.jpg" alt="img03"/></a></li>
-			</ul>
+	<div id="owl-home" class="owl-carousel">
+		<div class="item">
+			<img src="images/home_instituto_001.jpg" class="img-responsive center-block" alt="home001">
 		</div>
+		<div class="item">
+			<img src="images/home_instituto_002.jpg" class="img-responsive center-block" alt="home002">
+		</div>
+		<div class="item">
+			<img src="images/home_instituto_003.jpg" class="img-responsive center-block" alt="home003">
+		</div>
+	</div>
 </section>
 <!-- ./Slider -->
 <!-- section -->
 <div class="section welcome">
 	<div class="container">
-		<img src="images/bg2-divisor.png" height="86" width="670" alt="divisor" class="center-block">
+		<img src="images/bg2-divisor.png" alt="divisor" class="center-block">
 		<div class="welcome-text wow fadeInDown showdelay3 text-center">
-			<h1>O Alpha Group - Bem vindo ao Alpha Group</h1>
+			<h1>Seja bem vindo ao Alpha Group</h1>
 			<p>
 				Juntos, praticamos a <strong>Medicina Integrativa Ambiental</strong>, em benefício dos nossos pacientes, pois vamos<br>
 				muito além do tratamento de doenças estabelecidas, oferecemos a possibilidade de preveni-las!
@@ -114,11 +118,11 @@
 
 
 						<!-- section -->
-						<div class="section">
+						<div class="section professionals">
 							<div class="container">
 
 								<div class="section-heading">
-									<h2>Nossas profissionais</h2>
+									<h2>Nossos profissionais</h2>
 
 									<p class="text-center">
 										Atendendo as necessidades da vida atual, o Instituto Alpha oferece uma estrutura completa de profissionais, equipamentos, diagnósticos e exames
@@ -243,7 +247,7 @@
 						<!-- section -->
 
 						<!-- footer -->
-<?php include "_footer.php";?>
+						<?php include "_footer.php";?>
 
-				</body>
-				</html>
+					</body>
+					</html>

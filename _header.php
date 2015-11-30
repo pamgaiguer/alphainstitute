@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Alpha Group, medicina integrativa, medicina integral, instituto alpha">
   <meta name="author" content="Pamella Gaiguer">
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
   <title>Alpha Group</title>
   <!-- Bootstrap -->
-  <script src="js/modernizr.custom.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
@@ -21,7 +20,7 @@
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
   <!-- Main-Style -->
-  <link rel="stylesheet" href="css/component-slides.css" />
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
