@@ -5,6 +5,10 @@ body{
   min-height: 125px;
   font-family: 'DIN-Condensed-Bold';
 }
+.navbar-brand{
+  width: 227px;
+  height: 85px;
+}
 .navbar-nav>li>a {
   line-height: 50px;
 }
