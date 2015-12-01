@@ -138,3 +138,9 @@ ul.social-link li a {
 .team-info p{
   color: #9D9D9D;
 }
+.alphagroup-bg{
+  background-image: url('../images/alphagroup_background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 750px;
+}
