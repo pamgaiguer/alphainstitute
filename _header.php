@@ -50,9 +50,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="alphagroup.php">O Alpha Group</a></li>
-            <li><a href="galeria.php">Galeria</a></li>
+            <li><a href="gallery.php">Galeria</a></li>
             <li><a href="professionals.php">Os profissionais</a></li>
-            <li><a href="parceiros.php">Parceiros</a></li>
+            <li><a href="partners.php">Parceiros</a></li>
             <li><a href="contact.php">Contato</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
