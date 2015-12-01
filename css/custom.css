@@ -126,7 +126,10 @@ ul.social-link li a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9b4', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
   border: none;
 }
-.alphagroup-intern h2{
+.page-header h1{
+  vertical-align: middle;
+}
+.alphagroup-intern h1, .alphagroup-intern h2, .alphagroup-intern h3{
   color: #00B9B4;
 }
 .alphagroup-intern p{
@@ -143,4 +146,11 @@ ul.social-link li a {
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 750px;
+}
+.alphagroup-bg h1{
+  margin-top: 150px;
+  color: white
+}
+.alphagroup-bg p{
+  color: white;
 }

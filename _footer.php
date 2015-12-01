@@ -14,10 +14,10 @@
                     <ul class="list-unstyled">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="alphagroup.php">O Alpha Group</a></li>
-                      <li><a href="galeria.php">Galeria</a></li>
-                      <li><a href="profissonais.php">Os profissionais</a></li>
-                      <li><a href="parceiros.php">Parceiros</a></li>
-                      <li><a href="contato.php">Contato</a></li>
+                      <li><a href="gallery.php">Galeria</a></li>
+                      <li><a href="professionals.php">Os profissionais</a></li>
+                      <li><a href="partners.php">Parceiros</a></li>
+                      <li><a href="contact.php">Contato</a></li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
@@ -27,7 +27,7 @@
                         <li><a href="https://www.facebook.com/pages/Instituto-Alpha-de-Sa%C3%BAde-Integral/385416424931241" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/InstitutoAlpha" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/instituto-alpha-de-sa%C3%BAde-integral" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
                       </ul>
                     </div>
                   </div>

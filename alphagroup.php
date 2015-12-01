@@ -39,41 +39,42 @@
 	</div>
 </div>
 
-<div class="section">
+<div class="section alphagroup-intern wow fadeInRight showdelay6">
 	<div class="container">
-		<p class="grey-text text-intern">
+		<p>
 			Saúde se conquista diariamente, eliminando o que não serve mais ou que é tóxico, e aportando novas informações de qualidade, nutrientes e pensamentos com igual importância.
 		</p>
 		<h3 class="text-center">
-			Nós somos o Alpha Group! Nossa maior especialidade é a sua saúde!
+			<u>Nós somos o Alpha Group! Nossa maior especialidade é a sua saúde!</u>
 		</h3>
 	</div>
 	<div class="container">
-		<h1 class="green-text">Missão</h1>
-		<p class="text-intern grey-text text-justify">
+		<h1>Missão</h1>
+		<p class="text-justify">
 			Promover a prevenção consistente, a recuperação da saúde e o bem estar global do indivíduo, envolvendo-o em seu processo de prevenção e cura, <br>
 			harmonizando as estruturas física, energética, emocional e mental, por meio de tecnologias de ponta e atuação de
 			uma equipe multidisciplinar e humanizada.
 		</p>
-		<h1 class="green-text">Visão</h1>
-		<p class="text-intern grey-text text-justify">
+		<h1>Visão</h1>
+		<p class="text-justify">
 			Tornar-se um centro de Medicina Integrativa Ambiental de referência, reconhecido nacional e
 			mundialmente, promovendo saúde de forma humanizada e personalizada, visando o bem estar
 			e qualidade de vida.
 		</p>
-		<h1 class="green-text">Valores</h1>
-		<p class="text-intern grey-text text-justify">
+		<h1>Valores</h1>
+		<p class="text-justify">
 			Reunir e difundir as melhores práticas a favor da vida, atuando com segurança,
 			qualidade e inovação. Valorizando sempre a confiabilidade e transparência dos
 			processos, o respeito à todos os indivíduos, e principalmente, o respeito à vida.
 		</p>
 	</div>
+</div>
 
+<div class="section wow fadeInDown showdelay5">
 	<div class="alphagroup-bg">
 		<div class="container">
-			<h1 class="white-text">Sobre a Dra Em&iacute;lia Gadelha</h1>
-			<br><Br>
-			<p class="white-text">
+			<h1>Sobre a Dra Em&iacute;lia Gadelha</h1>
+			<p>
 				Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade <br>
 				de São Paulo - campus Ribeirão Preto, pós-graduação (Mestrado) em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela <br>
 				Escola Paulista de Medicina (atual UNIFESP).<br>

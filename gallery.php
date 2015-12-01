@@ -1,14 +1,10 @@
 <?php include "_header.php";?>
-
 <!-- ./navigation -->
-
-
 			<!-- ./navigation -->
-
 			<!-- section -->
 			<div class="section page-header">
 				<div class="container">
-					<h1>Services</h1>
+					<h1>Galeria</h1>
 				</div>
 			</div>
 			<!-- ./section -->

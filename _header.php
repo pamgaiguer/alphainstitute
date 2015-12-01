@@ -10,7 +10,7 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
-  <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet"> -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
   <!-- Animate -->
   <link rel="stylesheet" href="css/animate/animate.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">

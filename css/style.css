@@ -1130,3 +1130,34 @@ body.nopadd {
     min-height: 200px;
   }
 }
+/* ==================================================
+  Owl Random Order
+====================================================*/
+
+#owl-professionals .item{
+  display: block;
+}
+.owl-item{
+  width: 280px !important;
+}
+.owl-wrapper{
+  height: 300px !important;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+.owl-theme .owl-buttons i{
+  margin-top: 10px;
+  color: #10AB9D;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 55px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 55px;
+}

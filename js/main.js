@@ -62,6 +62,29 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function() {
+
+  //Sort random function
+  function random(owlSelector){
+    owlSelector.children().sort(function(){
+        return Math.round(Math.random()) - 0.5;
+    }).each(function(){
+      $(this).appendTo(owlSelector);
+    });
+  }
+
+  $("#owl-professionals").owlCarousel({
+    navigation: true,
+    navigationText: [
+      "<i class='glyphicon glyphicon-chevron-left'></i>",
+      "<i class='glyphicon glyphicon-chevron-right'></i>"
+      ],
+    beforeInit : function(elem){
+      random(elem);
+    }
+  });
+
+});
 
 
 // ***********************************
