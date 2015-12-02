@@ -142,7 +142,7 @@ ul.unstyled {
   padding-top: 60px;
 }
 /* ==================================================
-	Animations Delay
+Animations Delay
 ====================================================*/
 .showdelay1 {
   animation-delay: .1s;
@@ -320,7 +320,7 @@ ul.unstyled {
   }
 }
 /* ==================================================
-	Multipage
+Multipage
 ====================================================*/
 .multipage p {
   color: #323232;
@@ -355,7 +355,7 @@ ul.unstyled {
   color: #fff;
 }
 /* ==================================================
-	fullscreen slider
+fullscreen slider
 ====================================================*/
 #fullscreen-slider .slider-caption {
   text-align: center;
@@ -402,7 +402,7 @@ ul.unstyled {
   }
 }
 /* ==================================================
-	quick form
+quick form
 ====================================================*/
 .quick-form {
   padding: 20px;
@@ -411,7 +411,7 @@ ul.unstyled {
   border-radius: 3px;
 }
 /* ==================================================
-	top Heading
+top Heading
 ====================================================*/
 .top-heading {
   text-align: center;
@@ -424,7 +424,7 @@ ul.unstyled {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 /* ==================================================
-	Section Heading
+Section Heading
 ====================================================*/
 .section-heading {
   text-align: center;
@@ -451,7 +451,7 @@ ul.unstyled {
   }
 }
 /* ==================================================
-	Icon-Box
+Icon-Box
 ====================================================*/
 .icon-box {
   padding: 40px 0;
@@ -464,7 +464,7 @@ ul.unstyled {
   margin-bottom: 20px;
 }
 /* ==================================================
-	Featured
+Featured
 ====================================================*/
 .featured-box {
   padding: 20px 15px;
@@ -473,7 +473,7 @@ ul.unstyled {
   margin-bottom: 20px;
 }
 /* ==================================================
-	Page-header
+Page-header
 ====================================================*/
 .page-header {
   padding: 80px 0;
@@ -495,7 +495,7 @@ ul.unstyled {
   font-size: 60px;
 }
 /* ==================================================
-	Team
+Team
 ====================================================*/
 .team-box {
   margin: 40px 0;
@@ -529,7 +529,7 @@ ul.unstyled {
   color: #424242 !important;
 }
 /* ==================================================
-	Pricing
+Pricing
 ====================================================*/
 .price-box {
   border: 4px solid #ffffff;
@@ -566,7 +566,7 @@ ul.unstyled {
   border: 4px solid #424242;
 }
 /* ==================================================
-	Showcase
+Showcase
 ====================================================*/
 .pic {
   position: relative;
@@ -600,7 +600,7 @@ ul.unstyled {
   z-index: 1;
 }
 /* ==================================================
-	Modal
+Modal
 ====================================================*/
 .modal-content {
   background-color: rgba(0, 0, 0, 0.9);
@@ -648,7 +648,7 @@ ul.unstyled {
   }
 }
 /* ==================================================
-	Contact
+Contact
 ====================================================*/
 /* unstyled */
 ul.unstyled {
@@ -686,7 +686,7 @@ ul.social-link.dark li a {
   color: #424242;
 }
 /* ==================================================
-	Footer
+Footer
 ====================================================*/
 .footer {
   padding: 20px 0;
@@ -710,7 +710,7 @@ ul.social-link.dark li a {
   padding: 10px 0;
 }
 /* ==================================================
-	UIToTop
+UIToTop
 ====================================================*/
 #toTop {
   display: none;
@@ -752,7 +752,7 @@ ul.social-link.dark li a {
   }
 }
 /* ==================================================
-	timer  countdown
+timer  countdown
 ====================================================*/
 .timer {
   margin: 50px 0;
@@ -809,7 +809,7 @@ input.btn.btn-lg:focus {
   color: #ffffff;
 }
 /* ==================================================
-	Page Loader
+Page Loader
 ====================================================*/
 #pageloader {
   width: 100%;
@@ -856,7 +856,7 @@ input.btn.btn-lg:focus {
   margin: auto;
 }
 /* ==================================================
-	Components
+Components
 ====================================================*/
 /*  blockquote */
 blockquote {
@@ -1087,7 +1087,7 @@ blockquote.blockquote-reverse.dark {
   color: #424242;
 }
 /* ==================================================
-	Sidebar
+Sidebar
 ====================================================*/
 body.nopadd {
   padding-top: 0!important;
@@ -1131,24 +1131,24 @@ body.nopadd {
   }
 }
 /* ==================================================
-  Owl Random Order
+Owl Random Order
 ====================================================*/
-
-#owl-professionals .item{
-  display: block;
-}
-.owl-item{
-  width: 280px !important;
-}
-.owl-wrapper{
-  height: 300px !important;
-}
-.owl-theme .owl-controls .owl-buttons div {
-  padding: 5px 9px;
-}
-.owl-theme .owl-buttons i{
-  margin-top: 10px;
+.icon-green{
   color: #10AB9D;
+  border: 1px solid #10AB9D;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+#owl-professionals1 .item, #owl-professionals2 .item{
+  background: #42bdc2;
+  padding: 0px 0px;
+  margin: 2px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
 }
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
@@ -1160,4 +1160,7 @@ body.nopadd {
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: -45px;
   top: 55px;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: #00B9B4;
 }

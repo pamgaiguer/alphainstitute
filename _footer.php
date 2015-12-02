@@ -34,7 +34,7 @@
                   <!-- address -->
                   <div class="col-md-3 col-sm-3">
                     <div class="address  wow fadeInUp showdelay2">
-                      <h3>Endereços</h3>
+                      <h3>Endereço</h3>
                       <ul class="unstyled">
                         <li><i class="fa fa-map-marker"></i>Av. Rebouças, 3377, Pinheiros, São Paulo - SP</li>
                         <li><i class="fa fa-envelope"></i>contato@alphagroup.com.br</li>

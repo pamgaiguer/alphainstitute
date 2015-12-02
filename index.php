@@ -131,19 +131,32 @@
 									</p>
 								</div>
 
-								<div id="owl-professionals" class="owl-carousel owl-theme">
-									<div class="item"><img src="images/thumbs_professionals/alexandre_almeida.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/amanda_mariano.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/barbara_rescali.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/bruna_freitas.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/cristiane_guimaraes.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/cristina_chuva.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/elidia_rubini.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/emilia_gadelha.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/glene_rodrigues.png"></div>
-									<div class="item"><img src="images/thumbs_professionals/lamia_ayoub.png"></div>
+								<div id="owl-professionals1" class="owl-carousel owl-theme">
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/alexandre_almeida.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/amanda_mariano.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/barbara_rescali.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/bruna_freitas.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/cristiane_guimaraes.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/cristina_chuva.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/elidia_rubini.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/emilia_gadelha.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/glene_rodrigues.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/lamia_ayoub.png" class="img-responsive"></a></div>
 								</div>
 
+							</div>
+							<div class="container">
+								<div id="owl-professionals2" class="owl-carousel owl-theme">
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/luis_zacharias.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/marisa_fortes.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/mauricio_marteleto.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/paula_barros.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/renato.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/roberta_safar.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/rosario_junior.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/vera_g.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/vera_pagliari.png" class="img-responsive"></a></div>
+								</div>
 							</div>
 
 						</div>

@@ -2,17 +2,13 @@
 			<!-- section -->
 			<div class="section page-header">
 				<div class="container">
-					<h1>Porfolio</h1>
+					<h1>Os Profissionais</h1>
 				</div>
 			</div>
 			<!-- ./section -->
-
-
-
 			<!-- section -->
 <div class="section">
 	<div class="container">
-
 		<div class="section-heading">
 			<h2>Team Member</h2>
 		</div>

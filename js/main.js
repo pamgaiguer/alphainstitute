@@ -47,41 +47,61 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-    $("#owl-home").owlCarousel({
+  $("#owl-home").owlCarousel({
 
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-      responsive: true,
-      autoPlay: 4000,
-      autoplayTimeout:1000,
-      autoplayHoverPause:true,
-      stopOnHover: true,
-      rewindSpeed: 1000
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true,
+    responsive: true,
+    autoPlay: 4000,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    stopOnHover: true,
+    rewindSpeed: 1000
   });
 
 });
 
 $(document).ready(function() {
 
-  //Sort random function
-  function random(owlSelector){
-    owlSelector.children().sort(function(){
-        return Math.round(Math.random()) - 0.5;
-    }).each(function(){
-      $(this).appendTo(owlSelector);
-    });
-  }
+  var owl = $("#owl-professionals1");
 
-  $("#owl-professionals").owlCarousel({
-    navigation: true,
+  owl.owlCarousel({
+
+    itemsCustom : [
+    [0, 2],
+    [450, 3],
+    [600, 4],
+    [1000, 5],
+    ],
+    navigation : true,
     navigationText: [
-      "<i class='glyphicon glyphicon-chevron-left'></i>",
-      "<i class='glyphicon glyphicon-chevron-right'></i>"
-      ],
-    beforeInit : function(elem){
-      random(elem);
-    }
+    "<i class='glyphicon glyphicon-chevron-left icon-green'></i>",
+    "<i class='glyphicon glyphicon-chevron-right icon-green'></i>"
+    ],
+
+  });
+
+});
+
+$(document).ready(function() {
+
+  var owl = $("#owl-professionals2");
+
+  owl.owlCarousel({
+
+    itemsCustom : [
+    [0, 2],
+    [450, 3],
+    [600, 4],
+    [1000, 5],
+    ],
+    navigation : true,
+    navigationText: [
+    "<i class='glyphicon glyphicon-chevron-left icon-green'></i>",
+    "<i class='glyphicon glyphicon-chevron-right icon-green'></i>"
+    ],
+
   });
 
 });
@@ -116,7 +136,7 @@ $(document).ready(function(){
     vidSrc = player.prop('src');
     player.prop('src', ''); // to force it to pause
     player.prop('src', vidSrc);
-});
+  });
 });
 
 
@@ -128,10 +148,10 @@ $(document).ready(function(){
 // ***********************************
 
 $("body.bg-slider").backstretch([
-   "images/bg7.jpg",
-   "images/bg8.jpg",
-   "images/bg9.jpg",
-   ], {duration: 5000, fade: 1000});
+ "images/bg7.jpg",
+ "images/bg8.jpg",
+ "images/bg9.jpg",
+ ], {duration: 5000, fade: 1000});
 
 
 
@@ -143,7 +163,7 @@ $("body.bg-slider").backstretch([
 $('.gallery-item').magnificPopup({
   type: 'image',
   gallery:{
-     enabled:true
+   enabled:true
  }
 });
 
@@ -155,11 +175,11 @@ $('.gallery-item').magnificPopup({
 
 $(document).ready(function(){
 	wow = new WOW(
-   {
-      animateClass: 'animated',
-      offset:       150
-  }
-  );
+ {
+  animateClass: 'animated',
+  offset:       150
+}
+);
 	wow.init();
 });
 
@@ -193,12 +213,12 @@ $(document).ready(function( $ ) {
    $(function() {
 
     $("input,textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
+      preventSubmit: true,
+      submitError: function($form, event, errors) {
             // something to have when submit produces an error ?
             // Not decided if I need it yet
-        },
-        submitSuccess: function($form, event) {
+          },
+          submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -207,18 +227,18 @@ $(document).ready(function( $ ) {
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
+              firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "contact_me.php",
-                type: "POST",
-                data: {
-                    name: name,
-                    email: email,
-                    message: message
-                },
-                cache: false,
-                success: function() {
+              url: "contact_me.php",
+              type: "POST",
+              data: {
+                name: name,
+                email: email,
+                message: message
+              },
+              cache: false,
+              success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -230,8 +250,8 @@ $(document).ready(function( $ ) {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
-                error: function() {
+                  },
+                  error: function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -240,24 +260,24 @@ $(document).ready(function( $ ) {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
-            })
+                  },
+                })
 },
 filter: function() {
-    return $(this).is(":visible");
+  return $(this).is(":visible");
 },
 });
 
 $("a[data-toggle=\"tab\"]").click(function(e) {
-    e.preventDefault();
-    $(this).tab("show");
+  e.preventDefault();
+  $(this).tab("show");
 });
 });
 
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
-    $('#success').html('');
+  $('#success').html('');
 });
 
 
@@ -278,26 +298,26 @@ $('#name').focus(function() {
    $(function() {
 
     $("input").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
+      preventSubmit: true,
+      submitError: function($form, event, errors) {
             // something to have when submit produces an error ?
             // Not decided if I need it yet
-        },
-        submitSuccess: function($form, event) {
+          },
+          submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
 
             var email = $("input#email_subscribe").val();
 
             $.ajax({
-                url: "subscribe.php",
-                type: "POST",
-                data: {
-                    email: email
+              url: "subscribe.php",
+              type: "POST",
+              data: {
+                email: email
 
-                },
-                cache: false,
-                success: function() {
+              },
+              cache: false,
+              success: function() {
                     // Success message
                     $('#SubscribeForm #success_newsletter').html("<div class='alert alert-success'>");
                     $('#SubscribeForm #success_newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -309,8 +329,8 @@ $('#name').focus(function() {
 
                     //clear all fields
                     $('#SubscribeForm').trigger("reset");
-                },
-                error: function() {
+                  },
+                  error: function() {
                     // Fail message
                     $('#SubscribeForm #success_newsletter').html("<div class='alert alert-danger'>");
                     $('#SubscribeForm #success_newsletter > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -319,17 +339,17 @@ $('#name').focus(function() {
                     $('#SubscribeForm #success_newsletter > .alert-danger').append('</div>');
                     //clear all fields
                     $('#SubscribeForm').trigger("reset");
-                },
-            })
+                  },
+                })
 },
 filter: function() {
-    return $(this).is(":visible");
+  return $(this).is(":visible");
 },
 });
 
 $("a[data-toggle=\"tab\"]").click(function(e) {
-    e.preventDefault();
-    $(this).tab("show");
+  e.preventDefault();
+  $(this).tab("show");
 });
 });
 
@@ -337,5 +357,5 @@ $("a[data-toggle=\"tab\"]").click(function(e) {
 
 /*When clicking on Full hide fail/success boxes */
 $('#email_subscribe').focus(function() {
-    $('#SubscribeForm #success_newsletter').html('');
+  $('#SubscribeForm #success_newsletter').html('');
 });

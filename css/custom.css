@@ -135,10 +135,10 @@ ul.social-link li a {
 .alphagroup-intern p{
   color: #9D9D9D;
 }
-.team-info h3, .team-info strong{
+.team-info h3, .team-info strong, .contact-us h3{
   color: #00B9B4
 }
-.team-info p{
+.team-info p, .contact-us p{
   color: #9D9D9D;
 }
 .alphagroup-bg{
@@ -153,4 +153,23 @@ ul.social-link li a {
 }
 .alphagroup-bg p{
   color: white;
+}
+.form-control.dark {
+  color: #10AB9D;
+  background-color: #fff;
+  border: 2px solid #10AB9D;
+}
+.has-error .form-control.dark,
+.has-error .form-control:focus.dark {
+  border-color: #10AB9D;
+}
+.has-error .form-control,
+.has-error .form-control:focus {
+  border-color: #ffffff;
+}
+#contactForm .controls label{
+  color: #10AB9D;
+}
+.address h3, .social h3, .address li, .social li i{
+  color: #00B9B4;
 }
