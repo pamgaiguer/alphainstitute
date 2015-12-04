@@ -1,3 +1,5 @@
+@import url("../css/animate/animations.css");
+
 body{
   font-family: 'Avenir-Regular';
 }
@@ -44,7 +46,6 @@ body{
 }
 .especialties{
   background: url('../images/bg3.jpg') no-repeat top center;
-  background-size: cover;
 }
 .welcome{
   background: url('../images/bg2.jpg') no-repeat top center;
@@ -92,26 +93,39 @@ ul.social-link li a {
 .welcome-text p{
   color: #9D9D9D;
 }
+#owl-home .owl-theme .owl-controls .owl-page span {
+  background: white;
+}
 /*
 * Section for especialties texts
 *
 */
 .especialties h2, .especialties h3, .especialties p{
   color: white;
+  padding: 0;
+  margin-bottom: 0;
+}
+.icon-box {
+  padding: 0;
+}
+.icon-spin:hover{
+  -webkit-animation: iconSpin 1000ms ease;
+  -moz-animation: iconSpin 1000ms ease;
+  -ms-animation: iconSpin 1000ms ease;
 }
 /*
 * Section for Professionals
 */
 .professionals h2, .professionals p{
   color: #00B9B4;
+  padding: 0;
 }
 /*
-#10AB9D
-
 * Section for partners
 */
 .partners h2, .partners p{
   color: white;
+  padding: 0;
 }
 /*
 * paginas internas

@@ -48,26 +48,22 @@ $(document).ready(function() {
 $(document).ready(function() {
 
   $("#owl-home").owlCarousel({
-
     slideSpeed : 300,
-    paginationSpeed : 400,
+    pagination: false,
     singleItem:true,
     responsive: true,
     autoPlay: 4000,
     autoplayTimeout:1000,
     autoplayHoverPause:true,
     stopOnHover: true,
-    rewindSpeed: 1000
+    rewindSpeed: 1000,
   });
 
 });
 
 $(document).ready(function() {
-
   var owl = $("#owl-professionals1");
-
   owl.owlCarousel({
-
     itemsCustom : [
     [0, 2],
     [450, 3],
@@ -79,17 +75,13 @@ $(document).ready(function() {
     "<i class='glyphicon glyphicon-chevron-left icon-green'></i>",
     "<i class='glyphicon glyphicon-chevron-right icon-green'></i>"
     ],
-
   });
-
 });
 
 $(document).ready(function() {
 
   var owl = $("#owl-professionals2");
-
   owl.owlCarousel({
-
     itemsCustom : [
     [0, 2],
     [450, 3],
@@ -101,9 +93,7 @@ $(document).ready(function() {
     "<i class='glyphicon glyphicon-chevron-left icon-green'></i>",
     "<i class='glyphicon glyphicon-chevron-right icon-green'></i>"
     ],
-
   });
-
 });
 
 

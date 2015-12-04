@@ -1,0 +1,24 @@
+
+@-webkit-keyframes iconSpin{
+  from{
+    -webkit-transform: perspective(400px) rotateY(0deg);
+  }
+  to{
+    -webkit-transform: perspective(400px) rotateY(360deg);
+  }
+}
+@-moz-keyframes iconSpin{
+  from{
+    -moz-transform: perspective(400px) rotateY(0deg);
+  }
+  to{
+    -moz-transform: perspective(400px) rotateY(360deg);
+  }
+  }@-ms-keyframes iconSpin{
+    from{
+      -ms-transform: perspective(400px) rotateY(0deg);
+    }
+    to{
+      -ms-transform: perspective(400px) rotateY(360deg);
+    }
+  }
