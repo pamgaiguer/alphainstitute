@@ -9,7 +9,7 @@
 <!-- section -->
 <div class="section">
 	<div class="container">
-		<div class="row container-med">
+		<div class="container-med">
 		<!-- conteúdo montado pelo javascript !  -->
 		</div>
 	</div>

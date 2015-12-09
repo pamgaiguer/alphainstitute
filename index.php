@@ -128,30 +128,30 @@
 								</div>
 
 								<div id="owl-professionals1" class="owl-carousel owl-theme">
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/alexandre_almeida.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/amanda_mariano.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/barbara_rescali.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/bruna_freitas.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/cristiane_guimaraes.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/cristina_chuva.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/elidia_rubini.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/emilia_gadelha.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/glene_rodrigues.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/lamia_ayoub.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/alexandre_almeida.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/amanda_mariano.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/barbara_rescali.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/bruna_freitas.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/cristiane_guimaraes.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/cristina_chuva.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/elidia_rubini.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/emilia_gadelha.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/glene_rodrigues.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/lamia_ayoub.png" class="img-responsive"></a></div>
 								</div>
 
 							</div>
 							<div class="container">
 								<div id="owl-professionals2" class="owl-carousel owl-theme">
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/luis_zacharias.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/marisa_fortes.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/mauricio_marteleto.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/paula_barros.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/renato.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/roberta_safar.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/rosario_junior.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/vera_g.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/thumbs_professionals/vera_pagliari.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/luis_zacharias.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/marisa_fortes.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/mauricio_marteleto.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/paula_barros.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/renato.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/roberta_safar.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/rosario_junior.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/vera_g.png" class="img-responsive"></a></div>
+									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/vera_pagliari.png" class="img-responsive"></a></div>
 								</div>
 							</div>
 
@@ -172,75 +172,66 @@
 								<div class="row wow bounceInDown">
 									<div class="col-md-3 col-sm-3">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img5.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo1-paracelsus.jpg" alt="paracelsus">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Paracelsus Klinik</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-3">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img6.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo_katiavolpe.jpg" alt="katiavolpe">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Clínica Kátia Volpe</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-3">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img7.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo3-institutomachado.jpg" alt="machado">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Instituto Machado</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-3">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img8.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo_sorrentino.jpg" alt="Sorrentino">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Sorrentino Logevity Center</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="row wow bounceInDown">
-									<div class="col-md-3 col-sm-3">
+									<div class="col-md-4 col-sm-4">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img5.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo_alta.jpg" alt="Altadiagnosticos">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Alta Diagnósticos</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-3 col-sm-3">
+									<div class="col-md-4 col-sm-4">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img6.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo_microecologia.jpg" alt="microecologia">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Instituto Microecologia</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-3 col-sm-3">
+									<div class="col-md-4 col-sm-4">
 										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img7.jpg" alt="">
+											<img class="img-responsive img-thumbnail" src="images/logos_parceiros/logo_renatotatagiba.jpg" alt="Tatagiba">
 											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 col-sm-3">
-										<div class="featured-box item text-center">
-											<img class="img-responsive img-thumbnail" src="images/img8.jpg" alt="">
-											<div class="featured-info">
-												<h3>Transportation</h3>
-												<a href="#" class="btn btn-info">Read More</a>
+												<h3>Renato Tatagiba</h3>
+												<a href="partners.php" class="btn btn-info">Saiba Mais...</a>
 											</div>
 										</div>
 									</div>
