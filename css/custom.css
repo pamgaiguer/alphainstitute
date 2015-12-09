@@ -21,7 +21,11 @@ body{
   background-color: #00B9b4;
 }''
 .navbar-custom .navbar-nav li a {
-  color: #00B9b4;
+  color: #00B9B4;
+}
+a:active,
+a:visited {
+  color: #00B9B4;
 }
 .navbar-custom .navbar-nav li.active a {
   color: #00B9B4;
@@ -131,7 +135,7 @@ ul.social-link li a {
 * paginas internas
 */
 .page-header{
-  background: #00B9B4;
+  background: #00B9B4 !important;
   border: none;
 }
 .page-header h1{
