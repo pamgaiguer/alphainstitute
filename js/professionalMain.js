@@ -15,7 +15,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/amanda_thumb.png",
   },
   {
@@ -23,15 +23,15 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/barbara_thumb.png",
   },
     {
-    "fullName":"Bruna",
-    "occupation":"Naturóloga",
-    "idNumber": "Não Informado",
-    "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "fullName":"Dra. Bruna Freitas Rezende Martin",
+    "occupation":"Médica Dermatologista",
+    "idNumber": "CRM SP",
+    "slogan": "Lorem ipsum dolor sit amet.",
+    "biography": "",
     "img": "../images/professionals_internas/bruna_thumb.png",
   },
   {
@@ -39,7 +39,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/cristiane_thumb.png",
   },
   {
@@ -47,7 +47,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/cristina_thumb.png",
   },
   {
@@ -55,7 +55,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/elidia_thumb.png",
   },
   {
@@ -63,7 +63,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/emilia_thumb.png",
   },
   {
@@ -71,7 +71,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/glene_thumb.png",
   },
   {
@@ -79,7 +79,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/lamia_thumb.png",
   },
   {
@@ -87,7 +87,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/luis_thumb.png",
   },
   {
@@ -95,23 +95,23 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/marisa_thumb.png",
   },
   {
-    "fullName":"Mauricio",
-    "occupation":"Naturóloga",
-    "idNumber": "Não Informado",
-    "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "fullName":"Dr. Maurício Marteleto Filho",
+    "occupation":"Médico Ortopedista",
+    "idNumber": "CRM ",
+    "slogan": "Chefe da Clínica Pro Movimento. Médico formado...",
+    "biography": "",
     "img": "../images/professionals_internas/mauricio_thumb.png",
   },
   {
-    "fullName":"Paula",
-    "occupation":"Naturóloga",
+    "fullName":"Dra. Paula Barros Bandeira de Mello Monteiro",
+    "occupation":"Médica Oftalmologista",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/paula_thumb.png",
   },
   {
@@ -119,7 +119,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/renato_thumb.png",
   },
   {
@@ -127,15 +127,15 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/roberta_thumb.png",
   },
   {
-    "fullName":"Rosario",
-    "occupation":"Naturóloga",
+    "fullName":"Dr. Rosario Casalenuovo Júnior",
+    "occupation":"Médico Ortodentista",
     "idNumber": "Não Informado",
-    "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "slogan": "Arquitetura da Face e Odontologia",
+    "biography": "",
     "img": "../images/professionals_internas/rosario_thumb.png",
   },
   {
@@ -143,7 +143,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/suzete_thumb.png",
   },
   {
@@ -151,7 +151,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/verag_thumb.png",
   },
   {
@@ -159,7 +159,7 @@ $(document).ready(function(){
     "occupation":"Naturóloga",
     "idNumber": "Não Informado",
     "slogan": "Naturóloga formada pela UAM em 2010...",
-    "biography": "Naturóloga formada pela UAM em 2010. Especialista em Fitoterapia Brasileira pela UAM. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em spas com técnicas corporais naturais e práticas meditativas.",
+    "biography": "",
     "img": "../images/professionals_internas/vera_thumb.png",
   }
 
@@ -168,17 +168,17 @@ $(document).ready(function(){
 $.each(listMed, function(k, e){
 
   listDiv += "<div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
-        <div class='team-box'>\
-          <div class='team-image'>\
-            <img src='"+ e.img+  "'/>\
-          </div>\
-          <div class='team-info'>\
-            <h3>"+ e.fullName + "</h3>\
-            <strong>"+ e.occupation +"</strong>\
-            <p>"+ e.slogan +"</p>\
-          </div>\
-        </div>\
-      </div>"
+                <div class='team-box'>\
+                  <div class='team-image'>\
+                    <img src='"+ e.img+  "'/>\
+                  </div>\
+                  <div class='team-info'>\
+                    <h3>"+ e.fullName + "</h3>\
+                    <strong>"+ e.occupation +"</strong>\
+                    <p>"+ e.slogan +"</p>\
+                  </div>\
+                </div>\
+              </div>"
 });
 
 $(".container-med").append(listDiv);
