@@ -91,7 +91,4 @@
           <!-- jqbootstrapvalidator -->
           <script src="js/jqbootstrapvalidation/jqBootstrapValidation.js"></script>
           <!-- main -->
-  <script>
-
-  </script>
           <script src="js/main.js"></script>

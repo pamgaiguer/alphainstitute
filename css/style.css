@@ -501,13 +501,9 @@ Team
   margin: 40px 0;
 }
 .team-box .team-image img {
-  width: 128px;
-  height: 128px;
+  width: 155px;
+  height: 155px;
   float: left;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 }
 .team-box .team-info {
   margin-left: 160px;

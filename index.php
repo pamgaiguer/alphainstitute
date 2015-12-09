@@ -17,9 +17,9 @@
 <!-- section -->
 <div class="section welcome">
 	<div class="container">
-		<img src="images/bg2-divisor.png" alt="divisor" class="center-block">
+		<img src="images/bg2-divisor.png" alt="divisor" class="img-responsive center-block">
 		<div class="welcome-text wow fadeInDown showdelay3 text-center">
-			<h1>Seja bem vindo ao Alpha Group</h1>
+			<h1>Seja bem vindo ao <strong>Alpha Group</strong></h1>
 			<p>
 				Juntos, praticamos a <strong>Medicina Integrativa Ambiental</strong>, em benefício dos nossos pacientes, pois vamos<br>
 				muito além do tratamento de doenças estabelecidas, oferecemos a possibilidade de preveni-las!
