@@ -164,9 +164,12 @@
 
 								<div class="section-heading">
 									<h2>Parceiros de confiança</h2>
+									<br>
 									<p>
-										O Alpha Group, em função da competência de seus profissionais e serviços, estabeleceu algumas importantes parcerias técnico-científicas.
+										O Alpha Group, em função da competência de seus profissionais e serviços, estabeleceu algumas importantes parcerias técnico-científicas para continuar
+										a ter um serviço de grande reconhecimento.
 									</p>
+									<br>
 								</div>
 								<!-- latest-news -->
 								<div class="row wow bounceInDown">

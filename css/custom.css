@@ -137,6 +137,10 @@ ul.social-link li a {
   color: white;
   padding: 0;
 }
+.partners p{
+  font-size: 18px;
+  padding: 20px 0;
+}
 .partners h3{
   color: white;
 }
