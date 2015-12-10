@@ -173,7 +173,7 @@ $.each(listMed, function(k, e){
 
   listDiv += "<div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
                 <div class='media team-box'>\
-                  <div class='media-middle team-image'>\
+                  <div class='media-bottom team-image'>\
                     <img class='media-object img-responsive' src='"+ e.img+  "'/>\
                   </div>\
                   <div class='team-info'>\

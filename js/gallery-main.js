@@ -107,7 +107,7 @@ $(document).ready(function(){
 
     gallery += "<div class='col-md-3 col-sm-3'>\
     <div class='pic wow flipInX showdelay2'>\
-    <a href='"+ e.imgPath +"' class='instituto-item'><img class='img-thumbnail' src='" + e.imgPath + "' alt='"+ e.nameImage +"'><div class='img_overlay'></div></a>\
+    <a href='"+ e.imgPath +"' class='instituto-item' title='"+ e.nameImage +"'><img class='img-thumbnail' src='" + e.imgPath + "' alt='"+ e.nameImage +"'><div class='img_overlay'></div></a>\
     </div>\
     <p class='text-center'>"+ e.nameImage +"</p>\
     </div>";
@@ -119,11 +119,17 @@ $(document).ready(function(){
 
   $(".container-gallery").append(gallery);
 
-$('.instituto-item').magnificPopup({
-  type: 'image',
-  gallery:{
-   enabled:true
-}
-});
+  $('.instituto-item').magnificPopup({
+    type: 'image',
+    gallery:{
+      enabled:true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(item) {
+        return item.el.attr('title') + '<small>por Leonardo Zaccur</small>';
+      }
+    }
+  });
 
 });
