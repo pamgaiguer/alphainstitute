@@ -157,6 +157,14 @@ $('.gallery-item').magnificPopup({
  }
 });
 
+$('.instutite-item').magnificPopup({
+  type: 'image',
+  gallery:{
+   enabled:true,
+   navigateByImgClick: true
+}
+});
+
 
 
 // ****************************************************************
