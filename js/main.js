@@ -157,16 +157,6 @@ $('.gallery-item').magnificPopup({
  }
 });
 
-$('.instutite-item').magnificPopup({
-  type: 'image',
-  gallery:{
-   enabled:true,
-   navigateByImgClick: true
-}
-});
-
-
-
 // ****************************************************************
 // wow - for animation together with animate.css
 // ****************************************************************

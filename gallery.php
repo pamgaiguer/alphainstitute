@@ -17,7 +17,6 @@
 <!-- ./section -->
 
 <?php include "_footer.php";?>
-<!-- footer -->
 <script src="js/gallery-main.js"></script>
 </body>
 </html>
