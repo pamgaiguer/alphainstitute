@@ -181,6 +181,16 @@ ul.social-link li a {
 /*
 * paginas internas
 */
+.contact-form .btn-info {
+  color: #fff;
+  background-color: #00B9B4;
+  border-color: #00B9B4;
+}
+.contact-form .btn-info:hover {
+  color: #fff;
+  background-color: #10AB9D;
+  border-color: #10AB9D;
+}
 .page-header{
   background: #00B9B4 !important;
   border: none;
@@ -194,8 +204,8 @@ ul.social-link li a {
 .alphagroup-intern p{
   color: #9D9D9D;
 }
-.team-info h3, .team-info strong, .contact-us h3, {
-  color: #00B9B4
+.team-info h3, .team-info strong, .contact-us h3 {
+  color: #00B9B4;
 }
 .team-info p, .contact-us p{
   color: #9D9D9D;
