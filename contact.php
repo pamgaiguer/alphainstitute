@@ -23,7 +23,7 @@
 </div>
 <!-- ./section -->
 <!-- section -->
-<div class="section">
+<div class="section contact-us">
 	<div class="container">
 		<div class="row">
 			<!-- Contact Form -->
@@ -54,10 +54,11 @@
 						</div>
 						<div id="success"></div>
 						<div class="pull-right">
-							<button type="submit" class="btn btn-info btn-lg">Enviar</button>
+							<button type="submit" class="btn btn-info btn-lg" id="btn">Enviar</button>
 						</div>
 					</form>
 					<div class="clearfix"></div>
+					<div id="retornoHTML"></div>
 				</div>
 			</div>
 			<!-- ./contact form -->
