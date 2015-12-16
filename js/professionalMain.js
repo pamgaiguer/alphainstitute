@@ -46,7 +46,7 @@ $(document).ready(function(){
     "fullName":"Cristina Chuva",
     "occupation":"Fisioterapeuta",
     "idNumber": "CREFITO 7022",
-    "slogan": "Lorem ipsum dolor sit amet.",
+    "slogan": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986, Estudante de Filosofia...",
     "biography": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986, Estudante de Filosofia Védica, Bhaktivedanta Institute, Mayapur, West Bengal, India.  Comportamento,  Coping e Terapia com foco em Stress, Transtornos Contemporâneos. Coaching  em Qualidade de Vida. Terapia Ayurvédica,Terapias Orientais, Massoterapia e Pompage. Especialização em Eletroterapia, Biorressonância, Exame e Terapia. ",
     "img": "../images/professionals_internas/cristina_thumb.png",
   },
