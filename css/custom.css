@@ -53,7 +53,7 @@ a:visited {
   border: 2px solid #00B9B4;
   display: inline-block;
   margin-top: 10px;
-  padding: 12px;
+  padding: 6px 12px;
 }
 .bottom-footer {
   color: #9D9D9D;
@@ -138,6 +138,9 @@ ul.social-link li a {
 /*
 * Section for Professionals
 */
+.professionals h2{
+  margin-top: -10px;
+}
 .professionals h2, .professionals p{
   color: #00B9B4;
   padding: 0;
@@ -157,6 +160,10 @@ ul.social-link li a {
 /*
 * Section for partners
 */
+.partners h2{
+  padding: 0;
+  margin-top: -10px;
+}
 .partners h2, .partners p{
   color: white;
   padding: 0;
@@ -194,9 +201,12 @@ ul.social-link li a {
 .page-header{
   background: #00B9B4 !important;
   border: none;
+  border-bottom: none;
+  padding: 50px 0;
 }
 .page-header h1{
   vertical-align: middle;
+  margin-top: 30px;
 }
 .alphagroup-intern h1, .alphagroup-intern h2, .alphagroup-intern h3{
   color: #00B9B4;
@@ -210,11 +220,15 @@ ul.social-link li a {
 .team-info p, .contact-us p{
   color: #9D9D9D;
 }
+.alphagroup-intern{
+  padding: 20px 0;
+}
 .alphagroup-bg{
   background-image: url('../images/alphagroup_background.png');
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 750px;
+  margin-top: -100px;
 }
 .alphagroup-bg h1{
   margin-top: 150px;

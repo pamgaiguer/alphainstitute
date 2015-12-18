@@ -19,18 +19,26 @@
 		<div class="row">
 			<div class="col-md-6 col-sm-6">
 				<h2>Sobre o Alpha Group</h2>
-				<p class="text-justify">
+				<p>
 					Fundado em 2003, o Alpha Group tornou-se muito mais do que uma clínica médica
-					multidisciplinar especializada, pois no mesmo espaço físico, estão reunidos os mais
+					multidisciplinar especializada.
+				</p>
+				<p>
+					No mesmo espaço físico, estão reunidos os mais
 					conceituados médicos e profissionais da área da saúde, objetivando a integração do indivíduo
-					como um todo, além de métodos de diagnóstico e de tratamento, convencionais e inovadores,
-					promovendo uma verdadeira revolução na forma de pensar e viver Medicina.
+					como um todo.
+				</p>
+				<p>
+					Além de métodos de diagnóstico e de tratamento, convencionais e inovadores, aqui nós promovemos uma verdadeira revolução na forma de pensar e viver Medicina.
+				</p>
+				<p>
+					Saúde se conquista diariamente, eliminando o que não serve mais ou que é tóxico, e aportando novas informações de qualidade, nutrientes e pensamentos com igual importância.
 				</p>
 
 			</div>
 
 			<div class="col-md-6 col-sm-6">
-				<img src="images/alphagroup_hearts.jpg" height="477" width="448" alt="ladder">
+				<img src="images/alphagroup_hearts.jpg" class="pull-right" height="477" width="448" alt="ladder">
 			</div>
 
 		</div>
@@ -41,11 +49,8 @@
 
 <div class="section alphagroup-intern wow fadeInRight showdelay6">
 	<div class="container">
-		<p>
-			Saúde se conquista diariamente, eliminando o que não serve mais ou que é tóxico, e aportando novas informações de qualidade, nutrientes e pensamentos com igual importância.
-		</p>
 		<h3 class="text-center">
-			<u>Nós somos o Alpha Group! Nossa maior especialidade é a sua saúde!</u>
+			<span class="text-uppercase">Nós somos o Alpha Group! Nossa maior especialidade é a sua saúde!</span>
 		</h3>
 	</div>
 	<div class="container">
