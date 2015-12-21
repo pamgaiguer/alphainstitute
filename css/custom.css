@@ -198,6 +198,12 @@ ul.social-link li a {
   background-color: #10AB9D;
   border-color: #10AB9D;
 }
+.container-partners .media-heading{
+  color: #00B9B4;
+}
+.container-partners p{
+  color: #9D9D9D;
+}
 /*
 * paginas internas
 */
