@@ -261,7 +261,7 @@ Animations Delay
   margin: 0;
 }
 .navbar-custom .navbar-nav li a {
-/*  color: #ffffff;*/
+  /*  color: #ffffff;*/
 }
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
@@ -598,34 +598,45 @@ Showcase
 /* ==================================================
 Modal
 ====================================================*/
+.modal{
+  left: -120px;
+}
 .modal-content {
-  background-color: rgba(0, 0, 0, 0.9);
+  background: url('../images/professionals_internas/modal_alexandre.jpg') no-repeat top center;
+  width: 800px;
+  min-height: 600px;
 }
 .modal-content .modal-header {
-  border: none;
+  /*  border: none;*/
 }
 .modal-content .modal-header .close {
-  font-size: 42px;
+  /*font-size: 42px;
   color: #ffffff;
   opacity: 1;
-  font-weight: normal;
+  font-weight: normal;*/
 }
 .modal-content .modal-body {
-  padding: 15px 30px;
+  /*padding: 15px 30px;*/
 }
-.modal-content .modal-body h3 {
-  margin-bottom: 20px;
+.modal-content .modal-header h4 {
+  margin-top: 10px;
+  color: #00B9B4;
+  text-transform: uppercase;
+}
+.modal-content .modal-header button{
+  margin-top: 10px;
+  color: #00b9b4;
 }
 .modal-content .modal-body img {
-  margin: 10px 0;
+  /*margin: 10px 0;*/
 }
 .modal-content .modal-body img.pull-left {
-  margin: 10px 25px 10px 0;
-  max-width: 286px;
+/*  margin: 10px 25px 10px 0;
+max-width: 286px;*/
 }
 .modal-content .modal-body img.pull-right {
-  margin: 10px 0 10px 25px;
-  max-width: 286px;
+  /*margin: 10px 0 10px 25px;
+  max-width: 286px;*/
 }
 .modal-content .modal-body hr {
   margin-top: 30px;
@@ -635,13 +646,13 @@ Modal
 }
 @media (max-width: 480px) {
   .modal-body img.pull-left {
-    margin: 10px 0;
-    max-width: 100%;
-  }
-  .modal-body img.pull-right {
-    margin: 10px 0;
-    max-width: 100%;
-  }
+/*    margin: 10px 0;
+max-width: 100%;*/
+}
+.modal-body img.pull-right {
+/*    margin: 10px 0;
+max-width: 100%;*/
+}
 }
 /* ==================================================
 Contact
