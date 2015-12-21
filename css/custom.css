@@ -10,6 +10,14 @@ a:active,
 a:visited {
   color: #00B9B4;
 }
+.btn-primary{
+  background-color: #00B9B4;
+  border: 1px solid #00b9b4;
+}
+.btn-primary:hover{
+  background-color: #10AB9D;
+  border: 1px solid #10AB9D;
+}
 .navbar{
   min-height: 125px;
   font-family: 'DIN-Condensed-Bold';

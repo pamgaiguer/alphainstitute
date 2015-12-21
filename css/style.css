@@ -599,59 +599,58 @@ Showcase
 Modal
 ====================================================*/
 .modal{
-  left: -120px;
+  left: -15%;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer{
+  border-top: none;
 }
 .modal-content {
   background: url('../images/professionals_internas/modal_alexandre.jpg') no-repeat top center;
   width: 800px;
   min-height: 600px;
 }
+.modal-body p{
+  color: #9D9D9D;
+  float: right;
+  width: 450px;
+  text-align: justify;
+}
 .modal-content .modal-header {
-  /*  border: none;*/
 }
 .modal-content .modal-header .close {
-  /*font-size: 42px;
-  color: #ffffff;
-  opacity: 1;
-  font-weight: normal;*/
 }
 .modal-content .modal-body {
-  /*padding: 15px 30px;*/
 }
 .modal-content .modal-header h4 {
-  margin-top: 10px;
+  font-size: 28px;
+  margin-top: 30px;
   color: #00B9B4;
   text-transform: uppercase;
+}
+.modal-content .modal-header h5{
+  margin-top: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #9D9D9D;
+  font-weight: bold;
 }
 .modal-content .modal-header button{
   margin-top: 10px;
   color: #00b9b4;
 }
 .modal-content .modal-body img {
-  /*margin: 10px 0;*/
 }
 .modal-content .modal-body img.pull-left {
-/*  margin: 10px 25px 10px 0;
-max-width: 286px;*/
 }
 .modal-content .modal-body img.pull-right {
-  /*margin: 10px 0 10px 25px;
-  max-width: 286px;*/
-}
-.modal-content .modal-body hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 480px) {
   .modal-body img.pull-left {
-/*    margin: 10px 0;
-max-width: 100%;*/
 }
 .modal-body img.pull-right {
-/*    margin: 10px 0;
-max-width: 100%;*/
 }
 }
 /* ==================================================
