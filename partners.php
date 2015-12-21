@@ -98,7 +98,7 @@
 						</a>
 					</div>
 					<div class="media-body">
-						<h4 class="media-heading">Middle aligned media</h4>
+						<h4 class="media-heading">Alta Excelência Diagnóstica</h4>
 						<p class="text-justify">
 								O Alta Excelência Diagnóstica une três pilares: equipe médica de renome internacional, equipamentos de última geração e excelência em serviços. <br>
 								Além de diagnóstico por imagem, a marca oferece mais de três mil tipos de exames de análises clínicas que contam com a precisão de equipamentos de última geração, como
