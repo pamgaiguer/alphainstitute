@@ -614,9 +614,8 @@ Modal
 }
 .modal-body p{
   color: #9D9D9D;
-  float: right;
-  width: 450px;
-  text-align: justify;
+  margin-left: 315px;
+  margin-top: -50px;
 }
 .modal-content .modal-header {
 }

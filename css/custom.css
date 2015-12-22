@@ -39,9 +39,9 @@ a:visited {
 .navbar-custom .navbar-nav li:hover, .navbar-custom .navbar-nav li:focus, .navbar-custom .navbar-nav li:active, .navbar-custom .navbar-nav li:after  {
   background-color: #00B9b4;
   font-size: 20px;
-  -webkit-animation: fadeIn 1000ms ease;
-  -moz-animation: fadeIn 1000ms ease;
-  -ms-animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 2000ms ease;
+  -moz-animation: fadeIn 2000ms ease;
+  -ms-animation: fadeIn 2000ms ease;
 }
 .navbar-custom .navbar-nav li a {
   color: #00B9B4;

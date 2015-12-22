@@ -144,11 +144,11 @@ $(document).ready(function(){
       "modal": "modal_Paula.jpg"
     },
     {
-      "fullName":"Renato",
+      "fullName":"Dr. Renato Tatagiba",
       "occupation":"Cirurgião Plástico",
       "idNumber": "Não Informado",
       "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "",
+      "biography": "lorem ipsum",
       "img": "images/professionals_internas/renato_thumb.png",
       "idModal":"modalrenato",
       "modal": "modal_renato.jpg"
@@ -233,6 +233,7 @@ $(document).ready(function(){
           <div class='modal-header'>\
             <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span>&times;</span></button>\
             <h4 class='modal-title' id='"+ e.idModal +"Label'>"+ e.fullName +"</h4>\
+            <h5 class='modal-subtitle'>"+ e.occupation +"</h5>\
             <h5 class='modal-subtitle'>"+ e.idNumber +"</h5>\
           </div>\
           <div class='modal-body'>\
