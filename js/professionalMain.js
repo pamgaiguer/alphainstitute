@@ -1,5 +1,6 @@
 $(document).ready(function(){
   var listDiv = '';
+  var imagesModal = '';
   var listMed =
   {
     "medicos": [
@@ -141,7 +142,7 @@ $(document).ready(function(){
       "biography": "Graduação em Medicina - Universidade Federal do Rio de Janeiro - Dez/02. Fellow em Plástica Ocular na Escola Paulista de Medicina EPM-UNIFESP 2003-2004. Fellow em Órbita na Escola Paulista de Medicina EPM-UNIFESP 2003-2004. Fellow em Plástica Ocular na Faculdade  de Medicina do ABC 2004-2009 e Preceptora de 2010 a 2012. Pós-graduação em Medicina Estética pela ASIME - jul/2010. Pós-graduação em Fisiologia Humana - dez/2014. Curso Extensivo de 1 ano em Medicina Ortomolecular com Dr Artur Lemos - mar/2015. Pós-graduação em Nutrologia pela ABRAN. Pós graduação em Medicina Ortomolecular pela FAPES em curso. Cursos de Extensão, Congressos, Palestras, etc. - Participação constante em eventos para atualização na área técnica/ científica. Médica Oftalmologista em ambulatórios e Pronto-atendimentos, tais como dos hospitais: Santa Cruz, Ophthal, H.Olhos. Livro: Glúten e desordens relacionadas - Colaboradora/ 2015.",
       "img": "images/professionals_internas/paula_thumb.png",
       "idModal":"modalPaula",
-      "modal": "modal_Paula.jpg"
+      "modal": "modal_paula.jpg"
     },
     {
       "fullName":"Dr. Renato Tatagiba",
@@ -208,6 +209,8 @@ $(document).ready(function(){
   }
 
     $.each(listMed.medicos, function(k, e){
+      imagesModal += "<img src=../images/professionals_internas/"+e.modal+" class='hidden'>"
+
 
       if( k % 2 == 0 ){
         listDiv += "<div class= 'row'>";
@@ -248,6 +251,6 @@ $(document).ready(function(){
         listDiv += "</div>";
       }
     });
-
+    $(".container-med").append(imagesModal);
     $(".container-med").append(listDiv);
   });
