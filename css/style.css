@@ -312,12 +312,12 @@ Animations Delay
   font-weight: bold;
 }
 @media (max-width: 767px) {
-  #top-nav {
+/*  #top-nav {
     background-color: rgba(0, 0, 0, 0.6);
   }
   .navbar-custom .navbar-brand {
     padding: 0 0 0 15px;
-  }
+  }*/
 }
 /* ==================================================
 Multipage
@@ -617,12 +617,6 @@ Modal
   margin-left: 315px;
   margin-top: -50px;
 }
-.modal-content .modal-header {
-}
-.modal-content .modal-header .close {
-}
-.modal-content .modal-body {
-}
 .modal-content .modal-header h4 {
   font-size: 28px;
   margin-top: 30px;
@@ -640,18 +634,7 @@ Modal
   margin-top: 10px;
   color: #00b9b4;
 }
-.modal-content .modal-body img {
-}
-.modal-content .modal-body img.pull-left {
-}
-.modal-content .modal-body img.pull-right {
-}
-@media (max-width: 480px) {
-  .modal-body img.pull-left {
-}
-.modal-body img.pull-right {
-}
-}
+
 /* ==================================================
 Contact
 ====================================================*/

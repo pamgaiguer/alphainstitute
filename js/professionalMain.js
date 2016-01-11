@@ -17,7 +17,7 @@ $(document).ready(function(){
     {
       "fullName":"Amanda Mariano",
       "occupation":"Naturóloga",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Naturóloga formada pela UAM/SP em 2010 com especialização em Fitoterapia...",
       "biography": "Naturóloga formada pela Universidade Anhembi Morumbi em 2010. Especialista em Fitoterapia Brasileira pela Universidade Anhembi Morumbi. Especialista em Acupuntura, Fitoterapia e Dietoterapia Chinesa pela ETOSP -Escola de Terapias Orientais de São Paulo. Atua no segmento de qualidade de vida e bem estar através das terapias naturais integrativas e complementares há 10 anos. Formação nas áreas de  Aromaterapia, Florais de Bach, Massoterapia, Hidroterapia, Geoterapia e Calatonia. Tem experiência em atuação em SPA's com técnicas corporais naturais e práticas meditativas.",
       "img": "images/professionals_internas/amanda_thumb.png",
@@ -27,7 +27,7 @@ $(document).ready(function(){
     {
       "fullName":"Barbara Rescali Sanches",
       "occupation":"Nutricionista",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Nutricionista Funcional formada pela Universidade São Camilo em São Paulo.",
       "biography": "Nutricionista graduada pelo Centro Universitário São Camilo. Pós-graduada em Fitoterapia Funcional pelo Centro Valéria Paschoal/Divisão de Ensino e Pesquisa. Pós-graduada em Nutrição Esportiva Funcional pelo Centro Valéria Paschoal/Divisão de Ensino e Pesquisa. Pós-graduada em Nutrição Clínica Funcional pelo Centro Valéria Paschoal/Divisão de Ensino e Pesquisa.  Colaboradora dos livros: 'Fitoterapia funcional: dos princípios ativos à prescrição de fitoterápicos', 'Tratado de Nutrição Esportiva Funcional', 'Nutrição Clínica Funcional: Obesidade', 'Nutrição clínica funcional: suplementação nutricional' e 'Suplementação funcional magistral: dos nutrientes aos compostos bioativos'.",
       "img": "images/professionals_internas/barbara_thumb.png",
@@ -38,8 +38,8 @@ $(document).ready(function(){
       "fullName":"Dra. Bruna Freitas Rezende Martin",
       "occupation":"Médica Dermatologista",
       "idNumber": "CRM SP",
-      "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "",
+      "slogan": "Em breve...",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/bruna_thumb.png",
       "idModal":"modalBruna",
       "modal": "modal_bruna.jpg"
@@ -58,7 +58,7 @@ $(document).ready(function(){
       "fullName":"Cristina Chuva",
       "occupation":"Fisioterapeuta",
       "idNumber": "CREFITO 7022",
-      "slogan": "Lorem ipsum dolor sit amet.",
+      "slogan": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986....",
       "biography": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986, Estudante de Filosofia Védica, Bhaktivedanta Institute, Mayapur, West Bengal, India.  Comportamento,  Coping e Terapia com foco em Stress, Transtornos Contemporâneos. Coaching  em Qualidade de Vida. Terapia Ayurvédica,Terapias Orientais, Massoterapia e Pompage. Especialização em Eletroterapia, Biorressonância, Exame e Terapia. ",
       "img": "images/professionals_internas/cristina_thumb.png",
       "idModal":"modalCristinaChuva",
@@ -97,9 +97,9 @@ $(document).ready(function(){
     {
       "fullName":"Lamia Hassan Ayoub",
       "occupation":"Nutricionista",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Nutrição esportiva.",
-      "biography": "",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/lamia_thumb.png",
       "idModal":"modalLamia",
       "modal": "modal_lamia.jpg"
@@ -107,9 +107,9 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Luis Zacarias",
       "occupation":"Médico Nutrólogo",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/luis_thumb.png",
       "idModal":"modalLuis",
       "modal": "modal_luis.jpg"
@@ -127,7 +127,7 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Maurício Marteleto Filho",
       "occupation":"Médico Ortopedista",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Chefe da Clínica Pro Movimento. Médico formado...",
       "biography": "Chefe da Clínica Pro Movimento. Médico formado pela Faculdade de Medicina da Universidade de São Paulo. Especialista em Ortopedia e Traumatologia pela Sociedade Brasileira de Ortopedia e Traumatologia (SBOT). Membro do Comitê de Coluna da SBOT, Sociedade Brasileira de Patologia da Coluna Vertebral, da Sociedade Brasileira de Coluna e da North American Spine Society.",
       "img": "images/professionals_internas/mauricio_thumb.png",
@@ -137,8 +137,8 @@ $(document).ready(function(){
     {
       "fullName":"Dra. Paula Barros Bandeira de Mello Monteiro",
       "occupation":"Médica Oftalmologista",
-      "idNumber": "Não Informado",
-      "slogan": "Lorem ipsum dolor sit amet.",
+      "idNumber": "Em breve...",
+      "slogan": "Graduação em Medicina - Universidade Federal do Rio de Janeiro - Dez/02. Fellow em Plástica Ocular...",
       "biography": "Graduação em Medicina - Universidade Federal do Rio de Janeiro - Dez/02. Fellow em Plástica Ocular na Escola Paulista de Medicina EPM-UNIFESP 2003-2004. Fellow em Órbita na Escola Paulista de Medicina EPM-UNIFESP 2003-2004. Fellow em Plástica Ocular na Faculdade  de Medicina do ABC 2004-2009 e Preceptora de 2010 a 2012. Pós-graduação em Medicina Estética pela ASIME - jul/2010. Pós-graduação em Fisiologia Humana - dez/2014. Curso Extensivo de 1 ano em Medicina Ortomolecular com Dr Artur Lemos - mar/2015. Pós-graduação em Nutrologia pela ABRAN. Pós graduação em Medicina Ortomolecular pela FAPES em curso. Cursos de Extensão, Congressos, Palestras, etc. - Participação constante em eventos para atualização na área técnica/ científica. Médica Oftalmologista em ambulatórios e Pronto-atendimentos, tais como dos hospitais: Santa Cruz, Ophthal, H.Olhos. Livro: Glúten e desordens relacionadas - Colaboradora/ 2015.",
       "img": "images/professionals_internas/paula_thumb.png",
       "idModal":"modalPaula",
@@ -147,9 +147,9 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Renato Tatagiba",
       "occupation":"Cirurgião Plástico",
-      "idNumber": "Não Informado",
-      "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "lorem ipsum",
+      "idNumber": "Em breve...",
+      "slogan": "Em breve...",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/renato_thumb.png",
       "idModal":"modalrenato",
       "modal": "modal_renato.jpg"
@@ -157,9 +157,9 @@ $(document).ready(function(){
     {
       "fullName":"Roberta Safar",
       "occupation":"Esteticista",
-      "idNumber": "Não Informado",
-      "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "",
+      "idNumber": "Em breve...",
+      "slogan": "Em breve...",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/roberta_thumb.png",
       "idModal":"modalroberta",
       "modal": "modal_roberta.jpg"
@@ -167,7 +167,7 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Rosario Casalenuovo Júnior",
       "occupation":"Médico Ortodentista",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Especialista em arquitetura da face e odontologia",
       "biography": "Prof. de Ortondontia da Unoeste-SP, graduação e pós graduação, 1986 a 1994. Prof. Coordenador de Ortodontia da UNIC-MT, graduação, 1994 a 1996. Prof. Coordenador Especialização ABO-RO - 1998 a 2004. Prof. Curso de Mestrado em Ortodontia São Leopoldo Mandic - Campinas - 1997 a 2004. Presidente da ABFCOC (Academia Brasileira de Fisiopatologia Crâneo-oro-cervical) - 2009 a 2010. Presidente da ABOR-MT (Associação Brasileira de Ortodontia - SEC.MT). Membro da Academia Libero-Latino-Americana de Disfunção Crâneo-mandibular e Dolor Facial. Membro da Academia Libero Latino Americana de Estética Médica e Interdisciplinar. Co-autor do livro Cirurgia Ortognática e Ortodôntica. Diretor Clínico do Instituto Machado de Odontologia - Brasília, São Paulo e Cuiabá. Prêmio Quality Latino América, Qualidade Brasil - 2010/2011/2012/2013/2014, Prêmio Top of Mind 2009/2010/2011/2012/2013/2014 e Prêmio Master Top 45 2014. Especialista em: Ortondontia (Bioprogressiva e Arco reto). Ortopedia Funcional dos Maxilares. Dor Orofacial e Disfunção de ATM. Formação no Conceito Castillo Morales de Reabilitação. Autor do Conceito Arquitetura da Face. Autor do Conceito Ortodontia Funcional e Estética.",
       "img": "images/professionals_internas/rosario_thumb.png",
@@ -177,9 +177,9 @@ $(document).ready(function(){
     {
       "fullName":"Suzete",
       "occupation":"Médica",
-      "idNumber": "Não Informado",
-      "slogan": "Lorem ipsum dolor sit amet.",
-      "biography": "",
+      "idNumber": "Em breve...",
+      "slogan": "Em breve...",
+      "biography": "Em breve...",
       "img": "images/professionals_internas/suzete_thumb.png",
       "idModal":"modalSuzete",
       "modal": "modal_suzete.jpg"
@@ -187,7 +187,7 @@ $(document).ready(function(){
     {
       "fullName":"Vera G. Von Sothen",
       "occupation":"Terapeuta",
-      "idNumber": "Não Informado",
+      "idNumber": "Em breve...",
       "slogan": "Especialista em terapias florais, Jin Shin...",
       "biography": "Trabalha há 17 anos como terapeuta, utilizando Terapia Floral, Jin Shin Jyutsu e Radiônica - SRT - Spiritual Response Therapy. É formada pelo Energetic Medicine Institute, Pacific Essences, Victoria - Canadá. É Practitioner e Instrutora de Auto-Ajuda, autorizada pelo Jin Shin Jyutsu, Inc. Sottsddale - Arizona, USA.",
       "img": "images/professionals_internas/verag_thumb.png",
@@ -216,7 +216,7 @@ $(document).ready(function(){
         listDiv += "<div class= 'row'>";
       }
 
-      listDiv += "<a href='#' data-toggle='modal' data-target='#"+ e.idModal +"'>\
+      listDiv += "<a href='#' data-toggle='modal' class='hidden-xs hidden-sm' data-target='#"+ e.idModal +"'>\
       <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
         <div class='media team-box'>\
           <div class='media-bottom team-image'>\
@@ -225,12 +225,26 @@ $(document).ready(function(){
           <div class='team-info'>\
             <h3>"+ e.fullName + "</h3>\
             <strong>"+ e.occupation +"</strong>\
-            <p class='text-justify'>"+ e.slogan +"</p>\
+            <p>"+ e.slogan +"</p>\
           </div>\
         </div>\
       </div>\
     </a>\
-    <div class='modal fade' id='"+ e.idModal +"' tabindex='-1' role='dialog' aria-labelledby='"+ e.idModal +"Label'>\
+    <a class='visible-xs visible-sm'>\
+      <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
+        <div class='media team-box'>\
+          <div class='media-bottom team-image'>\
+            <img class='media-object img-responsive' src='"+ e.img+  "'/>\
+          </div>\
+          <div class='team-info'>\
+            <h3>"+ e.fullName + "</h3>\
+            <strong>"+ e.occupation +"</strong>\
+            <p>"+ e.slogan +"</p>\
+          </div>\
+        </div>\
+      </div>\
+    </a>\
+     <div class='modal hidden-xs fade' id='"+ e.idModal +"' tabindex='-1' role='dialog' aria-labelledby='"+ e.idModal +"Label'>\
       <div class='modal-dialog' role='document'>\
         <div class='modal-content' style='background: url(../images/professionals_internas/"+e.modal+") no-repeat top center;'>\
           <div class='modal-header'>\
