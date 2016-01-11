@@ -26,12 +26,15 @@
 </head>
 <body>
   <!-- wrapper -->
+
+<?php include "growing-tree.php";?>
+
   <div class="wrapper multipage">
-    <div class="preloader">
+<!--     <div class="preloader">
       <div class="loader-item">
         <img src="images/loading.gif" alt="loader">
       </div>
-    </div>
+    </div> -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom nav-dark navbar-fixed-top" role="navigation">
