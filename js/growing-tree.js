@@ -77,7 +77,8 @@ $(window).load(function(){
     $(".wrapper.multipage").fadeIn("slow");
   }
 
-  growingTree();
+  if (sessionStorage.getItem('animou') !== 'ja') {   growingTree(); }
+  sessionStorage.setItem('animou', 'ja');
 
   $(document).on("animationFinished", function() {
     loadPage();
