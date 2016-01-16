@@ -62,7 +62,7 @@
 		</p>
 		<h1>Visão</h1>
 		<p class="text-justify">
-			Tornar-se um centro de Medicina Integrativa Ambiental de referência, reconhecido nacional e
+			Tornar-se um centro de Medicina Integrativa de referência, reconhecido nacional e
 			mundialmente, promovendo saúde de forma humanizada e personalizada, visando o bem estar
 			e qualidade de vida.
 		</p>
@@ -78,7 +78,7 @@
 <div class="section wow fadeInDown showdelay5">
 	<div class="alphagroup-bg">
 		<div class="container">
-			<h1>Sobre a Dra Em&iacute;lia Gadelha</h1>
+			<h1>Sobre a Dra Maria Em&iacute;lia Gadelha Serra</h1>
 			<p>
 				Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade <br>
 				de São Paulo - campus Ribeirão Preto, pós-graduação (Mestrado) em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela <br>
@@ -88,9 +88,9 @@
 					<br>
 					Formação em Medicina Biológica Alemã, é membro da Diretoria da Associação Brasileira de Homeopatia e Homotoxicologia (ABHH).<br>
 					<br>
-					Foi a 1&ordf;. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ) e atualmente é Diretora Secretária da ABOZ. <br>
+					Foi a 1&ordf;. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ). Hoje mantém o posto de Diretora Presidente da ABOZ. <br>
 					<br>
-					Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre “Microecologia Intestinal e Adoecimento Sistêmico” e “Ozonioterapia”.<br>
+					Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre &ldquo;Microecologia Intestinal e Adoecimento Sistêmico&rdquo; e &ldquo;Ozonioterapia&rdquo;.<br>
 					<br>
 					Foi Diretora-Presidente e fundadora da organização não-governamental Instituto Recicle Milhões de Vidas (atual Instituto Recicle), dedicada a promover<br>
 					educação ambiental e gerar recursos financeiros para outras instituições que atendem crianças carentes a partir da implantação de programas de coleta <br>

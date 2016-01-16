@@ -21,12 +21,12 @@
 		<div class="welcome-text wow fadeInDown showdelay3 text-center">
 			<h1>Seja bem vindo ao <strong>Alpha Group</strong></h1>
 			<p>
-				Juntos, praticamos a <strong>Medicina Integrativa Ambiental</strong>, em benefício dos nossos pacientes, pois vamos<br>
-				muito além do tratamento de doenças estabelecidas, oferecemos a possibilidade de preveni-las!
+				Juntos, praticamos a <strong>Medicina Integrativa</strong>, em benefício dos nossos pacientes, pois vamos<br>
+				muito além do tratamento de doenças estabelecidas, oferecemos a possibilidade de preven&iacute;-las!
 			</p>
 			<p>
-				É preciso buscar as verdadeiras raízes da doença. Quando o corpo exibe os sintomas, são <br>
-				somente as folhas de uma árvore.
+				É preciso buscar as verdadeiras <strong>raízes</strong> da doença. Quando o corpo exibe os sintomas, são <br>
+				somente as <strong>folhas</strong> de uma árvore.
 			</p>
 			<p>
 				Saúde se conquista diariamente, eliminando o que não serve mais ou o que é tóxico, <br>
@@ -48,7 +48,7 @@
 				<div class="icon-box text-center wow fadeInLeft showdelay2">
 					<img src="images/espec_001_medicina_integrativa.png" class="icon-spin" class="icon-spin" height="97" width="96" alt="icon1" />
 					<h3>Medicina Integrativa</h3>
-					<p class="text-center">O conceito de Medicina Integrativa Ambiental se fundamenta no conhecimento do ambiente em que vivemos e dos impactos que os fatores do meio
+					<p class="text-center">O conceito de Medicina Integrativa se fundamenta no conhecimento do ambiente em que vivemos e dos impactos que os fatores do meio
 						ambiente externo, e também do meio interno, interferem na saúde do indivíduo. Ou seja, é a prática da Medicina que reafirma a importância da
 						relação entre o paciente e o profissional de saúde, focada na pessoa em seu todo, baseada em evidências, utilizando todas as abordagens
 						terapêuticas e disciplinas adequadas para obter o melhor da saúde e cura.</p>

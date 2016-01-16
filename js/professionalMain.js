@@ -1,6 +1,21 @@
 $(document).ready(function(){
   var listDiv = '';
-  var imagesModal = '';
+  var listEmilia = '';
+  var emiliaResume =
+  {
+    'emilia': [
+      {
+        "fullName":"Dra. Maria Emilia Gadelha Serra",
+          "occupation":"Médica Otorrinolaringologista",
+          "idNumber": "CREMESP 63451",
+          "slogan": "Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia ...",
+          "biography": "Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade de São Paulo – campus Ribeirão Preto, Mestrado em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela Escola Paulista de Medicina (atual UNIFESP). Bolsista do Monbusho (Ministério da Educação, Ciência e Cultura do Governo Japonês) na área de laringe e voz. Formação em Medicina Biológica Alemã, é membro da Diretoria da Associação Brasileira de Homeopatia e Homotoxicologia (ABHH). Foi a 1&ordf;. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ) e atualmente é  Diretora Secretária da ABOZ. Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre 'Microecologia Intestinal e Adoecimento Sistêmico' e 'Ozonioterapia'. Foi Diretora-Presidente e fundadora da organização não-governamental Instituto Recicle Milhões de Vidas (atual Instituto Recicle), dedicada a promover educação ambiental e gerar recursos financeiros para outras instituições que atendem crianças carentes a partir da implantação de programas de coleta seletiva de lixo. Formação complementar: cursos nas áreas: Medicina Hiperbárica, Homeopatia, Psicossomática, Medicina Tradicional Chinesa e Acupuntura, Homotoxicologia, Ozonioterapia, Oligoterapia Catalítica, Auriculoacupuntura, Bioressonância,  Prática Ortomolecular, Microscopia, Iridologia, Eneagrama, Resíduos Sólidos (lixo) e Preservação do Meio Ambiente.",
+          "img": "images/professionals_internas/emilia_thumb.png",
+          "idModal":"modalEmilia",
+          "modal": "modal_emilia.jpg"
+        }
+    ]
+  };
   var listMed =
   {
     "medicos": [
@@ -44,16 +59,16 @@ $(document).ready(function(){
       "idModal":"modalBruna",
       "modal": "modal_bruna.jpg"
     },
-    {
-      "fullName":"Dra. Cristiane Guimarães Romero",
-      "occupation":"Dentista e Ortodontista",
-      "idNumber": "CROSP 50213",
-      "slogan": "Dentista e ortodontista formada pela UNOESTE de Presidente Prudente em 1992 e com especialização em...",
-      "biography": "Formada pela Universidade do Oeste Paulista - UNOESTE em Presidente Prudente - 1992. Especialização em Ortodontia e Ortopedia Facial em 2005 - Universidade Camilo Castelo Branco/SP. Curso de Ortodontia Preventivo. Cetau - Equipe USP em 2003. Curso de Cefalometria Radiográfica. Cetau - Equipe USP em 2001. Curso de Próteses Fixas- APCD (Associação Paulista Cirurgiões Dentistas) - 1997. Diagnóstico Clínico. USP- Equipe Dr&ordm; José Rino Neto. Laserterapia na Odontologia (USP). Especialista em estética.",
-      "img": "images/professionals_internas/cristiane_thumb.png",
-      "idModal":"modalCristiane",
-      "modal": "modal_cristiane.jpg"
-    },
+    // {
+    //   "fullName":"Dra. Cristiane Guimarães Romero",
+    //   "occupation":"Dentista e Ortodontista",
+    //   "idNumber": "CROSP 50213",
+    //   "slogan": "Dentista e ortodontista formada pela UNOESTE de Presidente Prudente em 1992 e com especialização em...",
+    //   "biography": "Formada pela Universidade do Oeste Paulista - UNOESTE em Presidente Prudente - 1992. Especialização em Ortodontia e Ortopedia Facial em 2005 - Universidade Camilo Castelo Branco/SP. Curso de Ortodontia Preventivo. Cetau - Equipe USP em 2003. Curso de Cefalometria Radiográfica. Cetau - Equipe USP em 2001. Curso de Próteses Fixas- APCD (Associação Paulista Cirurgiões Dentistas) - 1997. Diagnóstico Clínico. USP- Equipe Dr&ordm; José Rino Neto. Laserterapia na Odontologia (USP). Especialista em estética.",
+    //   "img": "images/professionals_internas/cristiane_thumb.png",
+    //   "idModal":"modalCristiane",
+    //   "modal": "modal_cristiane.jpg"
+    // },
     {
       "fullName":"Cristina Chuva",
       "occupation":"Fisioterapeuta",
@@ -73,16 +88,6 @@ $(document).ready(function(){
       "img": "images/professionals_internas/elidia_thumb.png",
       "idModal":"modalElidia",
       "modal": "modal_elidia.jpg"
-    },
-    {
-      "fullName":"Dra. Maria Emilia Gadelha Serra",
-      "occupation":"Médica Otorrinolaringologista",
-      "idNumber": "CREMESP 63451",
-      "slogan": "Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia ...",
-      "biography": "Formada pela Universidade Federal do Rio de Janeiro (UFRJ) em 1988, residência médica em Otorrinolaringologia pela Universidade de São Paulo – campus Ribeirão Preto, Mestrado em Otorrinolaringologia e Cirurgia de Cabeça e Pescoço pela Escola Paulista de Medicina (atual UNIFESP). Bolsista do Monbusho (Ministério da Educação, Ciência e Cultura do Governo Japonês) na área de laringe e voz. Formação em Medicina Biológica Alemã, é membro da Diretoria da Associação Brasileira de Homeopatia e Homotoxicologia (ABHH). Foi a 1&ordf;. Diretora Presidente da Associação Brasileira de Ozonioterapia (ABOZ) e atualmente é  Diretora Secretária da ABOZ. Ministra aulas para cursos de extensão e pós-graduação em todo o Brasil sobre 'Microecologia Intestinal e Adoecimento Sistêmico' e 'Ozonioterapia'. Foi Diretora-Presidente e fundadora da organização não-governamental Instituto Recicle Milhões de Vidas (atual Instituto Recicle), dedicada a promover educação ambiental e gerar recursos financeiros para outras instituições que atendem crianças carentes a partir da implantação de programas de coleta seletiva de lixo. Formação complementar: cursos nas áreas: Medicina Hiperbárica, Homeopatia, Psicossomática, Medicina Tradicional Chinesa e Acupuntura, Homotoxicologia, Ozonioterapia, Oligoterapia Catalítica, Auriculoacupuntura, Bioressonância,  Prática Ortomolecular, Microscopia, Iridologia, Eneagrama, Resíduos Sólidos (lixo) e Preservação do Meio Ambiente.",
-      "img": "images/professionals_internas/emilia_thumb.png",
-      "idModal":"modalEmilia",
-      "modal": "modal_emilia.jpg"
     },
     {
       "fullName":"Dra. Glene Rodrigues",
@@ -208,63 +213,112 @@ $(document).ready(function(){
     ]
   }
 
-    $.each(listMed.medicos, function(k, e){
-      imagesModal += "<img src=../images/professionals_internas/"+e.modal+" class='hidden'>"
+  $.each(listMed.medicos, function(k, e){
 
+    if( k % 2 == 0 ){
+      listDiv += "<div class= 'row'>";
+    }
 
-      if( k % 2 == 0 ){
-        listDiv += "<div class= 'row'>";
-      }
-
-      listDiv += "<a href='#' data-toggle='modal' class='hidden-xs hidden-sm' data-target='#"+ e.idModal +"'>\
-      <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
-        <div class='media team-box'>\
-          <div class='media-bottom team-image'>\
-            <img class='media-object img-responsive' src='"+ e.img+  "'/>\
-          </div>\
-          <div class='team-info'>\
-            <h3>"+ e.fullName + "</h3>\
-            <strong>"+ e.occupation +"</strong>\
-            <p>"+ e.slogan +"</p>\
-          </div>\
-        </div>\
-      </div>\
+    listDiv += "<a href='#' data-toggle='modal' class='hidden-xs hidden-sm' data-target='#"+ e.idModal +"'>\
+    <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
+    <div class='media team-box'>\
+    <div class='media-bottom team-image'>\
+    <img class='media-object img-responsive' src='"+ e.img+  "'/>\
+    </div>\
+    <div class='team-info'>\
+    <h3>"+ e.fullName + "</h3>\
+    <strong>"+ e.occupation +"</strong>\
+    <p>"+ e.slogan +"</p>\
+    </div>\
+    </div>\
+    </div>\
     </a>\
     <a class='visible-xs visible-sm'>\
-      <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
-        <div class='media team-box'>\
-          <div class='media-bottom team-image'>\
-            <img class='media-object img-responsive' src='"+ e.img+  "'/>\
-          </div>\
-          <div class='team-info'>\
-            <h3>"+ e.fullName + "</h3>\
-            <strong>"+ e.occupation +"</strong>\
-            <p>"+ e.slogan +"</p>\
-          </div>\
-        </div>\
-      </div>\
+    <div class='col-md-6 col-sm-6 wow fadeInUp showdelay2'>\
+    <div class='media team-box'>\
+    <div class='media-bottom team-image'>\
+    <img class='media-object img-responsive' src='"+ e.img+  "'/>\
+    </div>\
+    <div class='team-info'>\
+    <h3>"+ e.fullName + "</h3>\
+    <strong>"+ e.occupation +"</strong>\
+    <p>"+ e.slogan +"</p>\
+    </div>\
+    </div>\
+    </div>\
     </a>\
-     <div class='modal hidden-xs fade' id='"+ e.idModal +"' tabindex='-1' role='dialog' aria-labelledby='"+ e.idModal +"Label'>\
-      <div class='modal-dialog' role='document'>\
-        <div class='modal-content' style='background: url(../images/professionals_internas/"+e.modal+") no-repeat top center;'>\
-          <div class='modal-header'>\
-            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span>&times;</span></button>\
-            <h4 class='modal-title' id='"+ e.idModal +"Label'>"+ e.fullName +"</h4>\
-            <h5 class='modal-subtitle'>"+ e.occupation +"</h5>\
-            <h5 class='modal-subtitle'>"+ e.idNumber +"</h5>\
-          </div>\
-          <div class='modal-body'>\
-            <p>"+ e.biography +"</p>\
-          </div>\
-        </div>\
-      </div>\
+    <div class='modal hidden-xs fade' id='"+ e.idModal +"' tabindex='-1' role='dialog' aria-labelledby='"+ e.idModal +"Label'>\
+    <div class='modal-dialog' role='document'>\
+    <div class='modal-content' style='background: url(../images/professionals_internas/"+e.modal+") no-repeat top center;'>\
+    <div class='modal-header'>\
+    <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span>&times;</span></button>\
+    <h4 class='modal-title' id='"+ e.idModal +"Label'>"+ e.fullName +"</h4>\
+    <h5 class='modal-subtitle'>"+ e.occupation +"</h5>\
+    <h5 class='modal-subtitle'>"+ e.idNumber +"</h5>\
+    </div>\
+    <div class='modal-body'>\
+    <p>"+ e.biography +"</p>\
+    </div>\
+    </div>\
+    </div>\
     </div>";
 
 
-      if( k % 2 != 0 ){
-        listDiv += "</div>";
-      }
-    });
-    $(".container-med").append(imagesModal);
-    $(".container-med").append(listDiv);
+    if( k % 2 != 0 ){
+      listDiv += "</div>";
+    }
   });
+$(".container-med").append(listDiv);
+
+
+  $.each(emiliaResume.emilia, function(k, e){
+
+    listEmilia += "<a href='#' data-toggle='modal' class='hidden-xs hidden-sm' data-target='#"+ e.idModal +"'>\
+    <div class='wow fadeInUp showdelay2'>\
+    <div class='media team-box'>\
+    <div class='media-bottom team-image'>\
+    <img class='media-object img-responsive' src='"+ e.img+  "'/>\
+    </div>\
+    <div class='team-info'>\
+    <h3>"+ e.fullName + "</h3>\
+    <strong>"+ e.occupation +"</strong>\
+    <p>"+ e.slogan +"</p>\
+    </div>\
+    </div>\
+    </div>\
+    </a>\
+    <a class='visible-xs visible-sm'>\
+    <div class='wow fadeInUp showdelay2'>\
+    <div class='media team-box'>\
+    <div class='media-bottom team-image'>\
+    <img class='media-object img-responsive' src='"+ e.img+  "'/>\
+    </div>\
+    <div class='team-info'>\
+    <h3>"+ e.fullName + "</h3>\
+    <strong>"+ e.occupation +"</strong>\
+    <p>"+ e.slogan +"</p>\
+    </div>\
+    </div>\
+    </div>\
+    </a>\
+    <div class='modal hidden-xs fade' id='"+ e.idModal +"' tabindex='-1' role='dialog' aria-labelledby='"+ e.idModal +"Label'>\
+    <div class='modal-dialog' role='document'>\
+    <div class='modal-content' style='background: url(../images/professionals_internas/"+e.modal+") no-repeat top center;'>\
+    <div class='modal-header'>\
+    <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span>&times;</span></button>\
+    <h4 class='modal-title' id='"+ e.idModal +"Label'>"+ e.fullName +"</h4>\
+    <h5 class='modal-subtitle'>"+ e.occupation +"</h5>\
+    <h5 class='modal-subtitle'>"+ e.idNumber +"</h5>\
+    </div>\
+    <div class='modal-body'>\
+    <p>"+ e.biography +"</p>\
+    </div>\
+    </div>\
+    </div>\
+    </div>";
+  });
+
+$(".container-emilia").append(listEmilia);
+
+
+});

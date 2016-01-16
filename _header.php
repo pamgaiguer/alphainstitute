@@ -27,7 +27,7 @@
 <body>
   <!-- wrapper -->
 
-<?php include "growing-tree.php";?>
+<!-- ?php include "growing-tree.php";? -->
 
   <div class="wrapper multipage">
 <!--     <div class="preloader">

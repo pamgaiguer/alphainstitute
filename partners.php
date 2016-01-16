@@ -22,7 +22,11 @@
 						</p>
 						<a href="http://www.paracelsus.ch" target="_blank">http://www.paracelsus.ch</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo1-paracelsus.jpg" alt="paracelsus">
+					<a href="http://www.paracelsus.ch" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo1-paracelsus.jpg" alt="paracelsus">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -38,7 +42,11 @@
 						</p>
 						<a href="http://www.clinicakatiavolpe.com.br" target="_blank">http://www.clinicakatiavolpe.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo2-katia.jpg"  alt="katia">
+					<a href="http://www.clinicakatiavolpe.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo2-katia.jpg"  alt="katia">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -54,7 +62,11 @@
 						</p>
 						<a href="http://www.institutomachado.com.br" target="_blank">http://www.institutomachado.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo3-institutomachado.jpg" alt="machado">
+					<a href="http://www.institutomachado.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo3-institutomachado.jpg" alt="machado">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -72,7 +84,11 @@
 						</p>
 						<a href="http://www.drvictorsorrentino.com.br" target="_blank">http://www.drvictorsorrentino.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_sorrentino.jpg" alt="victor">
+					<a href="http://www.drvictorsorrentino.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_sorrentino.jpg" alt="victor">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -89,7 +105,11 @@
 						</p>
 						<a href="http://www.altadiagnosticos.com.br" target="_blank">http://www.altadiagnosticos.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_alta.jpg" alt="alta">
+					<a href="http://www.altadiagnosticos.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_alta.jpg" alt="alta">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -98,7 +118,7 @@
 			<div class="col-md-12 col-sm-12">
 				<div class="media">
 					<div class="media-body">
-						<h4 class="media-heading">Instituto Microecologia</h4>
+						<h4 class="media-heading">Instituto de Microecologia</h4>
 						<p class="text-justify">
 							O Instituto de Microecologia, fundado na Alemanha há mais de 50 anos, atua na área de Microbiologia aplicada à clínica médica.
 							Responsável pela criação do conceito de micro-ecologia do organismo, observando a relação entre a microflora bacteriana e a saúde humana, desenvolve métodos de
@@ -106,7 +126,11 @@
 						</p>
 						<a href="http://www.microecologia.com.br" target="_blank">http://www.microecologia.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_microecologia.jpg" alt="microecologia">
+					<a href="http://www.microecologia.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_microecologia.jpg" alt="microecologia">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -122,7 +146,11 @@
 						</p>
 						<a href="http://www.renatotatagiba.com.br" target="_blank">http://www.renatotatagiba.com.br</a>
 					</div>
-					<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_renatotatagiba.jpg" alt="renatotatagiba">
+					<a href="http://www.renatotatagiba.com.br" target="_blank">
+						<figure>
+							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo_renatotatagiba.jpg" alt="renatotatagiba">
+						</figure>
+					</a>
 				</div>
 			</div>
 		</div>
