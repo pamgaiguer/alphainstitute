@@ -47,7 +47,7 @@
 						</div>
 						<div class="control-group form-group">
 							<div class="controls">
-								<label>Messagem</label>
+								<label>Mensagem</label>
 								<textarea class="form-control dark" rows="7" id="message" placeholder="Mensagem" required data-validation-required-message="Escreva sua mensagem" maxlength="999" style="resize:none"></textarea>
 								<p class="help-block"></p>
 							</div>
