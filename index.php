@@ -1,20 +1,22 @@
 <?php include "_header.php";?>
-<!-- Slider -->
+
 <section class="slide-inicial">
 	<div id="owl-home" class="owl-carousel">
 		<div class="item">
-			<img src="images/home_instituto_001.jpg" width="1521" height="650" class="img-responsive center-block" alt="home001">
+			<img src="images/home_instituto_001.jpg" width="1521" height="650" class="img-responsive center-block" alt="Alpha Group">
 		</div>
 		<div class="item">
-			<img src="images/home_instituto_002.jpg" width="1521" height="650" class="img-responsive center-block" alt="home002">
+			<img src="images/home_instituto_002.jpg" width="1521" height="650" class="img-responsive center-block" alt="Corredor">
 		</div>
 		<div class="item">
-			<img src="images/home_instituto_003.jpg" width="1521" height="650" class="img-responsive center-block" alt="home003">
+			<img src="images/home_instituto_003.jpg" width="1521" height="650" class="img-responsive center-block" alt="Exames">
+		</div>
+		<div class="item">
+			<img src="images/home_instituto_004.jpg" width="1521" height="650" class="img-responsive center-block" alt="Decoração">
 		</div>
 	</div>
 </section>
-<!-- ./Slider -->
-<!-- section -->
+
 <div class="section welcome">
 	<div class="container">
 		<img src="images/bg2-divisor.png" alt="divisor" class="img-responsive center-block">
@@ -137,13 +139,11 @@
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/elidia_rubini.png" class="img-responsive"></a></div>
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/emilia_gadelha.png" class="img-responsive"></a></div>
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/glene_rodrigues.png" class="img-responsive"></a></div>
-									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/lamia_ayoub.png" class="img-responsive"></a></div>
 								</div>
 
 							</div>
 							<div class="container">
 								<div id="owl-professionals2" class="owl-carousel owl-theme">
-									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/luis_zacharias.png" class="img-responsive"></a></div>
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/marisa_fortes.png" class="img-responsive"></a></div>
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/mauricio_marteleto.png" class="img-responsive"></a></div>
 									<div class="item"><a href="professionals.php"><img src="images/professionals_internas/paula_barros.png" class="img-responsive"></a></div>
@@ -248,6 +248,7 @@
 
 						<!-- footer -->
 						<?php include "_footer.php";?>
+						<script src="js/index.main.js"></script>
 
 					</body>
 					</html>

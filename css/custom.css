@@ -3,13 +3,19 @@
 body{
   font-family: 'Avenir-Regular';
 }
-/*.wrapper.multipage{
-  display: none;
+.wrapper.multipage{
+  visibility: visible;
 }
-svg{
-  display: none;
+#growingTree{
+  border: 1px solid #f0f;
+display: none
+}
+#growingTree svg{
+  visibility: hidden;
+
+  display: block;
   margin: 0 auto;
-}*/
+}
 a,
 a:hover,
 a:link,

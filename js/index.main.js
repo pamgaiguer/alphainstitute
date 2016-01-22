@@ -1,7 +1,8 @@
 $(window).load(function(){
 
-  function growingTree(){
+  var trigger = null;
 
+  function growingTree(){
     $("path").css({
       fill:"none",
       stroke:"#14b9b4",
@@ -66,22 +67,35 @@ $(window).load(function(){
           "stroke-opacity": 1-a
         });
         if (a == 1){
-          $(document).trigger("animationFinished");
-        }
-      }
-    });
+         trigger = 'animationFinished';
+         console.log('after function:', trigger);
+       }
+     }
+   });
   }
 
   function loadPage(){
-    $("svg").fadeOut("fast");
-    $("p").fadeIn("slow");
+    $("#growingTree").css('visibility', 'hidden').fadeOut("slow");
+    $(".wrapper.multipage").css('visibility', 'visible');
+    console.log('executando funcao loadPage???')
   }
 
-  if (sessionStorage.getItem('animou') !== 'ja') {
+  if (sessionStorage.getItem('trigger') !== 'animationFinished') {
+    console.log('to preso no if');
+
     growingTree();
-    console.log(sessionStorage, sessionStorage.getItem);
+    loadPage();
+
+    sessionStorage.setItem('trigger', 'animationFinished');
+    console.log('to preso no if parte 2');
+
+  } else{
+    $(document).on("animationFinished", function() {
+      console.log('executando loading page no else');
+      loadPage();
+    });
   }
-  sessionStorage.setItem('animou', 'ja');
-  loadPage();
+
+
 
 });
