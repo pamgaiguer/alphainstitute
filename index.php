@@ -6,9 +6,6 @@
 			<img src="images/home_instituto_001.jpg" width="1521" height="650" class="img-responsive center-block" alt="Alpha Group">
 		</div>
 		<div class="item">
-			<img src="images/home_instituto_002.jpg" width="1521" height="650" class="img-responsive center-block" alt="Corredor">
-		</div>
-		<div class="item">
 			<img src="images/home_instituto_003.jpg" width="1521" height="650" class="img-responsive center-block" alt="Exames">
 		</div>
 		<div class="item">

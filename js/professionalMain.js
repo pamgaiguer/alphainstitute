@@ -118,7 +118,7 @@ $(document).ready(function(){
     {
       "fullName": "Fernando Ramalho Guanabara Araújo",
       "occupation":"Nutrólogo",
-      "idNumber": "",
+      "idNumber": "1326 CREMEC",
       "slogan": "Médico formado em 2011 pela FAMENE...",
       "biography": "Médico formado em 2011 pela FAMENE - Faculdade de Enfermagem Nova Esperança - João Pessoa/PB. É pós graduado em Gastroenterologia na Harvard Medical School em Boston/Massachussetts. Mestrando em Ciência da Fisiologia Humana - Longevidade Saudável. Pós Graduando Nutriendocrinologia Funcional – Dr. Lair Ribeiro. Curso Fisiologia da Longevidade Humana e Modulação Hormonal Bioidêntica Aplicada. Coach Integral Sistêmico - Febracis/ Florida Cristian  University - Orlando/EUA. \nSoar Advanced Certification Program - Florida Cristian University - Orlando/EUA.",
       "thumb": "images/temporary_circle.png",
@@ -228,7 +228,7 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Renato Tatagiba",
       "occupation":"Cirurgião Plástico",
-      "idNumber": "Em breve...",
+      "idNumber": "CRM - ES 5827/RQE: 4416",
       "slogan": "Formado pela UFES (Universidade Federal do Espírito Santo), especialista em cirurgia geral ...",
       "biography": "Formado pela UFES (Universidade Federal do Espírito Santo), especialista em cirurgia geral pelo HC de Belo Horizonte/MG e com residência na Fundação Hospitalar do Estado de Minas Gerais. Dr. Renato participou de diversos cursos e visitas técnicas no Brasil e no exterior, inclusive em Londres e Barcelona, o que lhe garante refinamento em cada técnica aplicada. Especializou-se em cirurgia plástica para se dedicar à beleza humana. Além dos pacientes brasileiros, recebe pacientes de outros países e viaja constantemente para se conservar atualizado, estudando todas as novidades propostas e participando de eventos nacionais e internacionais.",
       "thumb": "images/professionals_internas/renato_thumb.png",
@@ -248,7 +248,7 @@ $(document).ready(function(){
     {
       "fullName":"Dr. Rosario Casalenuovo Júnior",
       "occupation":"Médico Ortodentista",
-      "idNumber": "Em breve...",
+      "idNumber": "CROSP 34862",
       "slogan": "Especialista em arquitetura da face e odontologia",
       "biography": "Prof. de Ortondontia da Unoeste-SP, graduação e pós graduação, 1986 a 1994. Prof. Coordenador de Ortodontia da UNIC-MT, graduação, 1994 a 1996. Prof. Coordenador Especialização ABO-RO - 1998 a 2004. Prof. Curso de Mestrado em Ortodontia São Leopoldo Mandic - Campinas - 1997 a 2004. Presidente da ABFCOC (Academia Brasileira de Fisiopatologia Crâneo-oro-cervical) - 2009 a 2010. Presidente da ABOR-MT (Associação Brasileira de Ortodontia - SEC.MT). Membro da Academia Libero-Latino-Americana de Disfunção Crâneo-mandibular e Dolor Facial. Membro da Academia Libero Latino Americana de Estética Médica e Interdisciplinar. Co-autor do livro Cirurgia Ortognática e Ortodôntica. Diretor Clínico do Instituto Machado de Odontologia - Brasília, São Paulo e Cuiabá",
       "thumb": "images/professionals_internas/rosario_thumb.png",
