@@ -50,7 +50,7 @@ $(document).ready(function(){
   },
   {
     'photoId': '23',
-    'nameImage' : '.',
+    'nameImage' : ' \'O Mais belo é também o mais amável\' - Platão',
     'imgPath': '../images/instituto/escritorio023.jpg'
   },
   {
@@ -78,11 +78,11 @@ $(document).ready(function(){
     'nameImage' : 'SPA',
     'imgPath': '../images/instituto/escritorio010.jpg'
   },
-  {
-    'photoId': '1',
-    'nameImage' : '.',
-    'imgPath': '../images/instituto/escritorio001.jpg'
-  },
+  // {
+  //   'photoId': '1',
+  //   'nameImage' : '.',
+  //   'imgPath': '../images/instituto/escritorio001.jpg'
+  // },
   {
     'photoId': '2',
     'nameImage' : 'Consultório 4',

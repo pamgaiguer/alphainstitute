@@ -87,7 +87,7 @@ $(document).ready(function(){
     },
     {
       "fullName":"Cristina Chuva",
-      "occupation":"Fisioterapeuta",
+      "occupation":"Fisioterapeuta e Terapeuta",
       "idNumber": "CREFITO 7022",
       "slogan": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986....",
       "biography": "Formada pela Universidade Estadual São Paulo - UNESP/IMESP em 1986, Estudante de Filosofia Védica, Bhaktivedanta Institute, Mayapur, West Bengal, India.  Comportamento,  Coping e Terapia com foco em Stress, Transtornos Contemporâneos. Coaching  em Qualidade de Vida. Terapia Ayurvédica,Terapias Orientais, Massoterapia e Pompage. Especialização em Eletroterapia, Biorressonância, Exame e Terapia. ",
@@ -97,7 +97,7 @@ $(document).ready(function(){
     },
     {
       "fullName":"Elídia Rubini Gomes",
-      "occupation":"Fisioterapeuta",
+      "occupation":"Fisioterapeuta e Terapeuta",
       "idNumber": "CREFITO 3/4032-F",
       "slogan": "Fisioterapeuta formada pela Universidade São Carlos em 1982 com pós graduação em...",
       "biography": "Fisioterapeuta formada pela Universidade Federal de São Carlos - 1982 com Pós Graduação em Ergonomia em Sistemas de Produção na POLI-USP/SP, RPG - Reeducação Postural Global pela Université Internationale Permanente de Therapie Manuelle, Saint Mont, França, FISIOLOGIA DO EXERCÍCIO na UNIFESP. Formada em Biorressonância Biofeedback pela The Quantum International Academies, com vários workshops de atualizações sobre o trabalho. Especialidades Técnicas: RPG, Maitland, Osteopatia, Escola de Coluna, Fisioterapia Ortognática e Biomecânica de Rocabado (ATM/Crânio/Cervical) entre outras.",
@@ -277,7 +277,7 @@ $(document).ready(function(){
     },
     {
       "fullName":"Vera Lucia Figueiredo Pagliari",
-      "occupation":"Fonoaudióloga",
+      "occupation":"Fonoaudióloga e Terapeuta",
       "idNumber": "CRN-3: 21491",
       "slogan": "Fonoaudióloga com formação pela PUC-SP e preocupada em integrar a experiência em consultório com ...",
       "biography": "Fonoaudióloga pela PUC-SP, mestre em Distúrbios da Comunicação pela mesma Instituição onde foi professora e supervisora clinica por 28 anos. Sempre preocupada em integrar a experiência em consultório particular com a vivência na Universidade e no Sistema Único de Saúde, escreveu vários artigos e participou como palestrante em Congressos e Simpósios. Formada em Biorressonância pela The Quantum Academies International, curso Beginners e Advanced. Com vários workshops de atualizações sobre o trabalho.",

@@ -72,11 +72,16 @@
 						<li><i class="fa fa-envelope"></i>contato@alphagroup.com.br</li>
 						<li><i class="fa fa-phone"></i>+55 (11) 3078-6777</li>
 					</ul>
+					<h3>Horário de funcionamento</h3>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-clock-o"></i> Segunda à sexta: 08:00h às 22:00h</li>
+					<li><i class="fa fa-clock-o"></i> Sábados: 09:00 às 13:00</li>
+				</ul>
 				</div>
 				<div class="social wow fadeInRight showdelay2">
 					<h3>Redes sociais</h3>
 					<ul class="social-link dark">
-						<li><a href="https://www.facebook.com/pages/Instituto-Alpha-de-Sa%C3%BAde-Integral/385416424931241" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/Instituto-Alpha-de-Sa%C3%BAde-Integral-153663761371256/timeline?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://twitter.com/InstitutoAlpha" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/instituto-alpha-de-sa%C3%BAde-integral" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
