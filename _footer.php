@@ -6,7 +6,7 @@
                     <p>Fique ligado nas dicas e novidades sobre saúde através da nossa fanpage e no Blog da Emília!</p>
                     <ul class="list-unstyled">
                       <li><a href="#"><strong>Blog da Emília</strong></a></li>
-                      <li><a href="https://www.facebook.com/pages/Instituto-Alpha-de-Sa%C3%BAde-Integral/385416424931241"><strong>Facebook/</strong>AlphaGroup</a></li>
+                      <li><a href="https://www.facebook.com/Instituto-Alpha-de-Sa%C3%BAde-Integral-153663761371256/timeline?ref=page_internal" target="_blank"><strong>Facebook/</strong>AlphaGroup</a></li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
