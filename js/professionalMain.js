@@ -261,7 +261,7 @@ $(document).ready(function(){
       "idNumber": "CRN3-44723P",
       "slogan": "Nutricionista graduada pelo Centro Universitário...",
       "biography": "Nutricionista graduada pelo Centro Universitário das Faculdades Metropolitanas Unidas Laureate.\nCursando Pós Graduação em Doenças Crônicas Não Transmissiveis no Instituto de Ensino do Hospital Israelita Albert Einstein.\nCursos de Extensão em Nutrição:\nVegetarianismo - VP Consultório Nutricional.\nDieta Vegetariana - IPED \nSuplementação Nutricional - USP\nTerapia Nutricional do Paciente Obeso - CA Nutrição\nBioquímica na Nutrição - Prof e Ms. Fernando Galante",
-      "thumb": "images/temporary_circle.png",
+      "thumb": "images/professionals_internas/tatyannye_thumb.png",
       "idModal":"modalTatyannye",
       "modal": "modal_tatyannye.jpg"
     },
