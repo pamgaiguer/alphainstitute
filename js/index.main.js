@@ -1,101 +1,83 @@
-$(window).load(function(){
+var trigger = null;
 
-  var trigger = null;
+growingTree();
 
-  function growingTree(){
-    $("path").css({
-      fill:"none",
-      stroke:"#14b9b4",
-      "stroke-width":3,
-      "stroke-miterlimit":10,
-      "stroke-dashoffset":6450,
-      "stroke-dasharray":6450,
-      "stroke-opacity":1
-    });
+function growingTree(){
+  $("path").css({
+    fill:"none",
+    stroke:"#14b9b4",
+    "stroke-width":3,
+    "stroke-miterlimit":10,
+    "stroke-dashoffset":6450,
+    "stroke-dasharray":6450,
+    "stroke-opacity":1
+  });
 
-    var animator = {
-      stepNum1 : 6450 ,
-      stepNum2 : 6450 ,
-      stepNum3 : 6450 ,
-      stepNum4 : 0 ,
+  var animator = {
+    stepNum1 : 6450 ,
+    stepNum2 : 6450 ,
+    stepNum3 : 6450 ,
+    stepNum4 : 0 ,
+  }
+  $(animator).animate({
+    stepNum1  : 0
+  },{
+    queue    : true,
+    duration : 2000,
+    step:function(now, fx){
+      var a = Math.round(fx.now);
+      $("#bgbot").css("stroke-dashoffset", a )
+      $("#bgtop").css("stroke-dashoffset", a )
     }
-    $(animator).animate({
-      stepNum1  : 0
-    },{
-      queue    : true,
-      duration : 2000,
-      step:function(now, fx){
-        var a = Math.round(fx.now);
-        $("#bgbot").css("stroke-dashoffset", a )
-        $("#bgtop").css("stroke-dashoffset", a )
+  }).animate({
+    stepNum2  : 0
+  },{
+    queue    : true,
+    duration : 4000,
+    step:function(now, fx){
+      var a = Math.round(fx.now);
+      $("#tree").css("stroke-dashoffset", a );
+      $("#root").css("stroke-dashoffset", a );
+    }
+  }).animate({
+    stepNum4  : 10000
+  },{
+    queue    : true,
+    duration : 2000,
+    step:function(now, fx){
+      var a = Math.round(fx.now)/10000;
+
+      $("#bgbot").css({
+        "fill": "#14b9b4" ,
+        "fill-opacity": a
+      });
+      $("#tree").css({
+        "stroke": "none",
+        "fill": "#14b9b4" ,
+        "fill-opacity": a
+      });
+
+      console.log(1-a);
+      console.log("printing A: " + a);
+
+      $("#root").css({
+        "stroke": "none",
+        fill: "#fff" ,
+        "fill-opacity": a,
+        "stroke-opacity": 1-a
+      });
+
+
+      if (a == 1){
+        trigger = 'animationFinished';
+        console.log('after function:', trigger);
       }
-    }).animate({
-      stepNum2  : 0
-    },{
-      queue    : true,
-      duration : 4000,
-      step:function(now, fx){
-        var a = Math.round(fx.now);
-        $("#tree").css("stroke-dashoffset", a );
-        $("#root").css("stroke-dashoffset", a );
-      }
-    }).animate({
-      stepNum4  : 10000
-    },{
-      queue    : true,
-      duration : 2000,
-      step:function(now, fx){
-        var a = Math.round(fx.now)/10000;
-
-        $("#bgbot").css({
-          "fill": "#14b9b4" ,
-          "fill-opacity": a
-        });
-        $("#tree").css({
-          "stroke": "none",
-          "fill": "#14b9b4" ,
-          "fill-opacity": a
-        });
-
-        console.log(1-a);
-        console.log("printing A: " + a);
-
-        $("#root").css({
-          "stroke": "none",
-          fill: "#fff" ,
-          "fill-opacity": a,
-          "stroke-opacity": 1-a
-        });
-        if (a == 1){
-         trigger = 'animationFinished';
-         console.log('after function:', trigger);
-       }
-     }
-   });
-  }
-
-  function loadPage(){
-    $("#growingTree").css('visibility', 'hidden').fadeOut("slow");
-    $(".wrapper.multipage").css('visibility', 'visible');
-    console.log('executando funcao loadPage???')
-  }
-
-  if (sessionStorage.getItem('trigger') !== 'animationFinished') {
-    console.log('to preso no if');
-
-    growingTree();
-    loadPage();
-
-    sessionStorage.setItem('trigger', 'animationFinished');
-    console.log('to preso no if parte 2');
-
-  } else{
-    $(document).on("animationFinished", function() {
-      console.log('executando loading page no else');
       loadPage();
-    });
-  }
+    }
+  });
+}
 
-
-
-});
+function loadPage(){
+  $("#growingTree").fadeOut("slow");
+  window.location.href = 'home.php';
+}

@@ -55,7 +55,7 @@ $(document).ready(function(){
   },
   {
     'photoId': '15',
-    'nameImage' : 'Consultório 1 - Instituto Machado',
+    'nameImage' : 'Consultório 1 - Odontologia',
     'imgPath': '../images/instituto/escritorio015.jpg'
   },
   {

@@ -3,16 +3,7 @@
 body{
   font-family: 'Avenir-Regular';
 }
-.wrapper.multipage{
-  visibility: visible;
-}
-#growingTree{
-  border: 1px solid #f0f;
-  display: none
-}
 #growingTree svg{
-  visibility: hidden;
-
   display: block;
   margin: 0 auto;
 }

@@ -12,7 +12,7 @@
                   <div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
                     <h3>Mapa do site</h3>
                     <ul class="list-unstyled">
-                      <li><a href="index.php">Home</a></li>
+                      <li><a href="home.php">Home</a></li>
                       <li><a href="alphagroup.php">O Alpha Group</a></li>
                       <li><a href="gallery.php">Galeria</a></li>
                       <li><a href="professionals.php">Os profissionais</a></li>
