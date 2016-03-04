@@ -3,9 +3,20 @@
 body{
   font-family: 'Avenir-Regular';
 }
-#growingTree svg{
+.growingTree{
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 10%;
+  padding-left: 35%;
+}
+.#growingTree svg{
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 a,
 a:hover,
@@ -339,6 +350,15 @@ ul.social-link li a {
     text-transform: uppercase;
     color: #9D9D9D;
     font-weight: bold;
+  }
+}
+@media (min-width: 1px) and (max-width: 768px){
+  .growingTree{
+    width: 70%;
+    height: 0;
+    position: relative;
+    padding-top: 17%;
+    padding-left: 7%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px){

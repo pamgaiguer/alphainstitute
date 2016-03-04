@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container growingTree">
   <div id="growingTree" class="center-block">
     <svg class="img-responsive" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:cc="http://creativecommons.org/ns#"

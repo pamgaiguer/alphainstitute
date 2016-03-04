@@ -1,6 +1,12 @@
 var trigger = null;
 
-growingTree();
+
+$.ajax({
+  url:growingTree(),
+  success: function(){alert("pronto!")}
+})
+
+
 
 function growingTree(){
   $("path").css({
@@ -57,9 +63,6 @@ function growingTree(){
         "fill-opacity": a
       });
 
-      console.log(1-a);
-      console.log("printing A: " + a);
-
       $("#root").css({
         "stroke": "none",
         fill: "#fff" ,
@@ -67,17 +70,18 @@ function growingTree(){
         "stroke-opacity": 1-a
       });
 
+/*      console.log(1-a);
+      console.log("printing A: " + a);
 
       if (a == 1){
         trigger = 'animationFinished';
         console.log('after function:', trigger);
-      }
-      loadPage();
+      }*/
     }
   });
 }
 
 function loadPage(){
-  $("#growingTree").fadeOut("slow");
+  // $("#growingTree").fadeOut("slow");
   window.location.href = 'home.php';
 }
