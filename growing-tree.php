@@ -1,6 +1,13 @@
-<div class="container">
-  <div id="growingTree" class="center-block">
-    <svg class="img-responsive" xmlns:dc="http://purl.org/dc/elements/1.1/"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARVORE DO CARALHO</title>
+</head>
+<body>
+
+
+<div class="container growingTree">
+  <svg class="img-responsive" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:svg="http://www.w3.org/2000/svg"
@@ -58,5 +65,12 @@
     id="root"
     inkscape:connector-curvature="0"
     sodipodi:nodetypes="cccccccccscccccccccccccccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" /></svg>
-  </div>
 </div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/index.main.js"></script>
+</body>
+</html>
+

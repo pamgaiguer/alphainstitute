@@ -1,14 +1,7 @@
-var trigger = null;
-
-
-$.ajax({
-  url:growingTree(),
-  success: function(){alert("pronto!")}
-})
-
-
+var final = null;
 
 function growingTree(){
+
   $("path").css({
     fill:"none",
     stroke:"#14b9b4",
@@ -63,6 +56,9 @@ function growingTree(){
         "fill-opacity": a
       });
 
+      console.log(1-a);
+      console.log("printing A: " + a);
+
       $("#root").css({
         "stroke": "none",
         fill: "#fff" ,
@@ -70,18 +66,17 @@ function growingTree(){
         "stroke-opacity": 1-a
       });
 
-/*      console.log(1-a);
-      console.log("printing A: " + a);
-
       if (a == 1){
-        trigger = 'animationFinished';
-        console.log('after function:', trigger);
-      }*/
+        final = true;
+        loadPage();
+      }
     }
   });
+  return final;
 }
 
 function loadPage(){
-  // $("#growingTree").fadeOut("slow");
+  $("#growingTree").fadeOut("slow");
   window.location.href = 'home.php';
 }
+growingTree();

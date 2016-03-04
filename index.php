@@ -11,10 +11,9 @@
 	<title>Alpha Group - Bem vindo ao instituto de medicina integrativa</title>
 </head>
 <body>
-
 <div class="container growingTree">
-  <div id="growingTree" class="center-block">
-    <svg class="img-responsive" xmlns:dc="http://purl.org/dc/elements/1.1/"
+
+    <svg id="growingTree" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:svg="http://www.w3.org/2000/svg"
@@ -72,11 +71,9 @@
     id="root"
     inkscape:connector-curvature="0"
     sodipodi:nodetypes="cccccccccscccccccccccccccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" /></svg>
-  </div>
-</div>
 
+</div>
 <script src="js/jquery.js"></script>
 <script src="js/index.main.js"></script>
-
 </body>
 </html>
