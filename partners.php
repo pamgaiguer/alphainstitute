@@ -55,26 +55,6 @@
 			<div class="col-md-12 col-sm-12">
 				<div class="media">
 					<div class="media-body">
-						<h4 class="media-heading">Instituto Machado</h4>
-						<p class="text-justify">
-							O Instituto Machado possui todas as especialidades da odontologia e com uma base filosófica acadêmica, está sempre em busca da excelência em todos os
-							trabalhos, e para isto sua equipe é constituída por profissionais obrigatoriamente especialistas atuantes em suas respectivas áreas.
-						</p>
-						<a href="http://www.institutomachado.com.br" target="_blank">http://www.institutomachado.com.br</a>
-					</div>
-					<a href="http://www.institutomachado.com.br" target="_blank">
-						<figure>
-							<img class="thumbnail wow flipInX showdelay2" src="images/logos_parceiros/logo3-institutomachado.jpg" alt="machado">
-						</figure>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="media">
-					<div class="media-body">
 						<h4 class="media-heading">Clínica Dr. Victor Sorrentino</h4>
 						<p class="text-justify">
 							O primeiro Centro Premium de Medicina Preventiva do Brasil. Com serviços que modelam-se aos interesses dos mais exigentes pacientes e agregam os

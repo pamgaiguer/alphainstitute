@@ -76,16 +76,6 @@ $(document).ready(function(){
       "modal": "modal_bruna.jpg"
     },
     {
-      "fullName":"Cristiane Guimarães Romero",
-      "occupation":"Dentista e Ortodontista",
-      "idNumber": "CROSP 50213",
-      "slogan": "Dentista e ortodontista formada pela UNOESTE de Presidente Prudente em 1992 e com especialização em...",
-      "biography": "Formada pela Universidade do Oeste Paulista - UNOESTE em Presidente Prudente - 1992. Especialização em Ortodontia e Ortopedia Facial em 2005 - Universidade Camilo Castelo Branco/SP. Curso de Ortodontia Preventivo. Cetau - Equipe USP em 2003. Curso de Cefalometria Radiográfica. Cetau - Equipe USP em 2001. Curso de Próteses Fixas- APCD (Associação Paulista Cirurgiões Dentistas) - 1997. Diagnóstico Clínico. USP- Equipe Dr&ordm; José Rino Neto. Laserterapia na Odontologia (USP). Especialista em estética.",
-      "thumb": "images/professionals_internas/cristiane_thumb.png",
-      "idModal":"modalCristiane",
-      "modal": "modal_cristiane.jpg"
-    },
-    {
       "fullName":"Cristina Chuva",
       "occupation":"Fisioterapeuta e Terapeuta",
       "idNumber": "CREFITO 7022",
@@ -196,16 +186,6 @@ $(document).ready(function(){
       "modal": "modal_martina.jpg"
     },
     {
-      "fullName":"Dr. Maurício Marteleto Filho",
-      "occupation":"Médico Ortopedista",
-      "idNumber": "CRM 72348",
-      "slogan": "Chefe da Clínica Pro Movimento. Médico formado...",
-      "biography": "Chefe da Clínica Pro Movimento. Médico formado pela Faculdade de Medicina da Universidade de São Paulo. Especialista em Ortopedia e Traumatologia pela Sociedade Brasileira de Ortopedia e Traumatologia (SBOT). Membro do Comitê de Coluna da SBOT, Sociedade Brasileira de Patologia da Coluna Vertebral, da Sociedade Brasileira de Coluna e da North American Spine Society.",
-      "thumb": "images/professionals_internas/mauricio_thumb.png",
-      "idModal":"modalMauricio",
-      "modal": "modal_mauricio.jpg"
-    },
-    {
       "fullName": "Maurício Zylbergeld",
       "occupation":"Termologia clínica e Termografia",
       "idNumber": "CRM 21058",
@@ -234,26 +214,6 @@ $(document).ready(function(){
       "thumb": "images/professionals_internas/renato_thumb.png",
       "idModal":"modalrenato",
       "modal": "modal_renato.jpg"
-    },
-    {
-      "fullName":"Roberta Safar Bevilacqua Silva",
-      "occupation":"Esteticista",
-      "idNumber": "",
-      "slogan": "Graduada pela Faculdade Anchieta - Jundiaí/SP e especialista em...",
-      "biography": "Esteticista há 5 anos com experiência em tratamentos estéticos. Já trabalhou em grandes salões e clinicas de Jundia&iacute; e S&atilde;o Paulo. Graduada e, Estética e Cosmetologia pela Faculdade Anchieta - Jundiaí/SP. Técnica esteticista pela Escola Celia Santucci - Jundiaí/SP e Graduada em Fisioterapia na UNIP. Trabalha com os temas Estetica Facial (rejuvenescimento, limpeza de pele, tratamento para acne, drenagem linfática, tratamento de melasma, tratamento com mel) e Estetica Corporal (terapia detox com mel, massagem relaxante com óleo ozonizado, massagem com pedras quentes, massagem com pindas, esfoliação e hidratação corporal, drenagem linfática manual, ,bambuterapia,  tratamento para celulite com mel, massagem modeladora, drenagem linfática pré e pós operatório e aromaterapia).",
-      "thumb": "images/professionals_internas/roberta_thumb.png",
-      "idModal":"modalroberta",
-      "modal": "modal_roberta.jpg"
-    },
-    {
-      "fullName":"Dr. Rosario Casalenuovo Júnior",
-      "occupation":"Médico Ortodentista",
-      "idNumber": "CROSP 34862",
-      "slogan": "Especialista em arquitetura da face e odontologia",
-      "biography": "Prof. de Ortondontia da Unoeste-SP, graduação e pós graduação, 1986 a 1994. Prof. Coordenador de Ortodontia da UNIC-MT, graduação, 1994 a 1996. Prof. Coordenador Especialização ABO-RO - 1998 a 2004. Prof. Curso de Mestrado em Ortodontia São Leopoldo Mandic - Campinas - 1997 a 2004. Presidente da ABFCOC (Academia Brasileira de Fisiopatologia Crâneo-oro-cervical) - 2009 a 2010. Presidente da ABOR-MT (Associação Brasileira de Ortodontia - SEC.MT). Membro da Academia Libero-Latino-Americana de Disfunção Crâneo-mandibular e Dolor Facial. Membro da Academia Libero Latino Americana de Estética Médica e Interdisciplinar. Co-autor do livro Cirurgia Ortognática e Ortodôntica. Diretor Clínico do Instituto Machado de Odontologia - Brasília, São Paulo e Cuiabá",
-      "thumb": "images/professionals_internas/rosario_thumb.png",
-      "idModal":"modalrosario",
-      "modal": "modal_rosario.jpg"
     },
     {
       "fullName": "Tatyannye da Costa",
